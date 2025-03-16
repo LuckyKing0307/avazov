@@ -102,49 +102,60 @@
 </section>
 <section class="experience">
     <div class="container_exp">
-        <h2 class="title_exp">BIZNES TADBIR SIZGA <br> ANIQ FOYDA<br>  BERADI, AGAR...</h2>
+        <h2 class="title_exp"><span class="span_bg">BIZNES TADBIR</span> SIZGA <br> ANIQ FOYDA<br>  BERADI, AGAR...</h2>
 
         <div class="exp-item">
             <div class="color_block"></div>
             <p>Siz klinika rahbari bo‘lib, <br> sotuv tizimini yaratmoqchi <br> bo‘lsangiz</p>
+            <div class="images_section next1"><img src="img/6.webp" alt=""></div>
+            <div class="register_btn next"><img src="img/next.svg" alt=""></div>
         </div>
-
 
         <div class="exp-item">
             <div class="color_block"></div>
             <p>Foydani oshirish va mijoz <br> oqimini ko‘paytirish bo‘yicha <br> aniq instrumentlar <br> olmoqchi bo‘lsangiz</p>
+            <div class="images_section next2"><img src="img/5.webp" alt=""></div>
+            <div class="register_btn next"><img src="img/next.svg" alt=""></div>
         </div>
-
 
         <div class="exp-item">
             <div class="color_block"></div>
             <p>Savdoyingizni karra<br>o’stiruvchi sotuv strate-<br>giyalarni oʻrganmoqchi<br>boʻlsangiz</p>
+            <div class="images_section next3"><img src="img/4.webp" alt=""></div>
+            <div class="register_btn next"><img src="img/next.svg" alt=""></div>
         </div>
-
-        <button class="register_btn glory700 exp-btn">RO‘YXATDAN O‘TISH</button>
+        <div class="button_container">
+            <div class="first_layer">
+                <div class="second_layer">
+                    <button class="register_btn glory700">Ro’yhatdan o’tish</button>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <section class="biznes">
-    <div class="container info_data">
-        <div class="biznes_title">
-            BIZNES TADBIR <br>SPIKERI
-        </div>
-        <img src="img/Алишер%20Авазов.png" alt="" class="AlisherText">
-        <div class="list_biznes">
-            <div class="biznes_item">
-                <img src="img/7%201.svg" alt="">
-                <div class="biznes_item_text">30 yillik tajribaga ega tadbirkor</div>
+        <div class="container">
+            <div class="biznes_title">
+                BIZNES TADBIR <span class="span_bold">SPIKERI</span>
             </div>
-            <div class="biznes_item">
-                <img src="img/7%201.svg" alt="">
-                <div class="biznes_item_text">Europol, Nefrit suv va Amerikadagi <br>birnecha kompaniyalar asoschisi
+            <div class="list_biznes">
+                <div class="biznes_item">
+                    <img src="img/7%201.svg" alt="">
+                    <div class="biznes_item_text">30 yillik tajribaga ega<br> tadbirkor</div>
+                </div>
+                <div class="biznes_item">
+                    <img src="img/7%201.svg" alt="">
+                    <div class="biznes_item_text">Europol, Nefrit suv<br> va Amerikadagi <br>birnecha kompaniyalar<br> asoschisi
+                    </div>
+                </div>
+                <div class="biznes_item">
+                    <img src="img/7%201.svg" alt="">
+                    <div class="biznes_item_text">O’zbekistom boʻylab <br>13 ta filialga ega</div>
                 </div>
             </div>
-            <div class="biznes_item">
-                <img src="img/7%201.svg" alt="">
-                <div class="biznes_item_text">O’zbekistom boʻylab <br>13 ta filialga ega</div>
-            </div>
         </div>
+    <div class="container info_data info_data1">
+        <img src="img/img_1.png" alt="">
         <button class="biznes_btn register_btn glory700 exp-btn">RO‘YXATDAN O‘TISH</button>
     </div>
 </section>
@@ -152,7 +163,7 @@
     <div class="section_container">
         <div class="videoblog">
             <div class="video_blog">
-                <iframe width="100" height="415"
+                <iframe width="300" height="415"
                         src="https://www.youtube.com/embed/tgbNymZ7vqY">
                 </iframe>
             </div>
@@ -163,10 +174,11 @@
         <div class="stars">
             <img src="img/Stars.svg" alt="">
         </div>
+        <button class="register_btn cta-button cta-button-b">RO‘YXATDAN O‘TISH</button>
     </div>
 </section>
 <section class="questions">
-    <div class="container info_data">
+    <div class="container info_data info_data_bottom">
         <div class="questions_title display_flex">
             <img src="img/questions.png" alt="">
             <div class="q_title">KO’P BERILADIGAN <br>SAVOLLARGA JAVOBLAR:</div>
@@ -207,8 +219,6 @@
             </div>
         </div>
     </div>
-    <div class="elipse elipse1"></div>
-    <div class="elipse elipse2"></div>
 </section>
 
 <div class="form_bg">

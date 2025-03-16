@@ -27,6 +27,7 @@ body{
     display: flex;
 }
 .jcsb{
+    margin-top: 10px !important;
     justify-content: space-between;
 }
 .glory700{
@@ -42,14 +43,23 @@ body{
     line-height: 100%;
 }
 .info_data{
-    padding: 12px 34px;
+    position: relative;
+    padding: 19px 15px;
     align-items: center;
     width: 90%;
     background: #fff;
     border-radius: 32px;
+    margin-top: 70px;
+}
+.info_data1 img{
+    position: absolute;
+    bottom: 0;
+    right: -5%;
+    z-index: 1;
+    width: 300px;
 }
 header{
-    padding-top: 50px;
+    padding-top: 10px;
 }
 .sub_data{
     align-items: center;
@@ -68,14 +78,14 @@ header{
 .header_con{
     position: relative;
     background: linear-gradient(180deg, #FFFFFF 0%, #DBDBDB 100%);
-    margin-top: 43px;
-    padding: 40px;
+    margin-top: 20px;
+    padding: 25px 40px;
     border-radius: 30px;
     overflow: hidden;
 }
 .cross{
-    width: 150px;
-    margin-left: -50px;
+    width: 80px;
+    margin-left: -30px;
 }
 .header_main{
     overflow: hidden;
@@ -83,8 +93,8 @@ header{
 .header_main>img{
     position: absolute;
     bottom: -30px;
-    right: -50px;
-    width: 100%;
+    right: -20px;
+    width: 90%;
     z-index: 0;
 }
 .info_blog{
@@ -101,15 +111,25 @@ header{
     color: #2B384B;
     font-family: 'Montserrat', sans-serif;
     background-clip: text;
+    line-height: 35px;
     font-weight: 600;
     font-size: 35px;
-    line-height: 35px;
+}
+.images_section{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.images_section>img{
+    width: 100%;
 }
 .span_bg{
     background: #E9E9E9;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 13px;
+    margin-left: -5px;
 }
 .sub_title_blog{
     width: 60%;
@@ -187,7 +207,7 @@ header{
     position: relative;
     border-radius: 22px;
     max-width: 100%;
-    padding: 50px 20px 20px;
+    padding: 30px 20px 20px;
     margin: 70px auto 0;
     text-align: center;
 }
@@ -293,8 +313,15 @@ header{
     text-transform: uppercase;
     color: #fff;
     transform: translate(0, 75%);
+    position: relative;
+    z-index: 1;
 }
-
+.cta-button-b{
+    transform: translate(0, 15%);
+}
+.info_data_bottom{
+    background: none;
+}
 .cta-button:hover {
     background: linear-gradient(to bottom, #1A5BCC, #1347A8);
 }
@@ -320,11 +347,32 @@ h2 {
     background: #fff;
     width: 100%;
     border-radius: 30px;
-    display: flex;
     align-items: center;
     gap: 12px;
     padding: 30px 24px;
     margin-top: 50px;
+    padding-bottom: 100px;
+}
+.next{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.next1{
+    width: 200px;
+}
+.next2{
+    width: 250px;
+}
+.next3{
+    width: 250px;
+    margin-right: -50px;
 }
 .color_block{
     position: absolute;
@@ -365,10 +413,10 @@ hr {
     margin-top: 20px;
 }
 .biznes_title{
-    font-weight: 800;
+    font-weight: 400;
     font-size: 52px;
     text-transform: uppercase;
-    color: #2F6B96;
+    color: #2B384B;
 }
 .biznes_item{
     margin-top: 20px;
@@ -385,19 +433,16 @@ hr {
     color: #5C5C5C;
 }
 .biznes_btn{
-    height: 43px;
-    width: auto;
-    padding: 16px 25px;
+    width: 70%;
+    padding: 22px 25px;
     font-weight: 800;
     font-size: 10px;
     line-height: 100%;
     text-transform: uppercase;
-    margin-top: 35px;
-}
-.biznes{
-    background: url("../img/bgaa.png") no-repeat 100% 100%;
-    background-size: auto;
-    height: 750px;
+    margin: 0;
+    margin-bottom: 125px;
+    position: relative;
+    z-index: 1;
 }
 .videos{
 }
@@ -426,7 +471,7 @@ hr {
     border-radius: 32px;
 }
 .questions{
-    background: #036fc4;
+    background: #2b384b;
     margin-top: -50px;
     padding-top: 100px;
     position: relative;
@@ -438,8 +483,13 @@ hr {
 }
 .questions_title{
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .questions_title img{
+    width: 55px !important;
+    height: 82px;
     margin-right: 10px;
 }
 .q_title{

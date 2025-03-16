@@ -25,6 +25,7 @@
 }
 .jcsb{
     justify-content: space-between;
+    align-items: center;
 }
 .glory700{
     font-family: 'Gilroy', sans-serif;
@@ -39,7 +40,7 @@
     line-height: 100%;
 }
 .info_data{
-    padding: 30px;
+    padding: 10px 30px;
     padding-bottom: 0;
 }
 .sub_data{
@@ -62,6 +63,7 @@
 .header_main{
     background: url("../img/bg.png") no-repeat 0 13%;
     background-size: 100% auto;
+    margin-top: -10%;
 }
 .header_main>img{
     width: 100%;
@@ -75,14 +77,21 @@
     flex-direction: column;
     align-items: center;
 }
+.book_blog{
+    width: 300px;
+}
+.book_blog img{
+    width: 100%;
+}
 .title{
     width: 95%;
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
     text-transform: uppercase;
     background: linear-gradient(96.08deg, #02457A 22.64%, #047FE0 77.36%);
     color: transparent;
     background-clip: text;
+    font-weight: 400;
 }
 .sub_title_blog{
     padding: 0 30px;
@@ -92,6 +101,7 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
+    margin-left: 20px;
 }
 .span_bold{
     font-weight: 800;
@@ -101,7 +111,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 32px;
+    margin-top: 10px;
 }
 .timer_container:after{
     content: '';
@@ -110,7 +120,7 @@
     height: 100px;
     position: absolute;
     right: 0;
-    top: -150%;
+    bottom: -20%;
 }
 .timer{
     padding: 5px 15px;
@@ -143,7 +153,7 @@
     border: 1px solid #036FC4;
     border-radius: 11px;
     text-align: center;
-    padding: 36px;
+    padding: 17px;
     font-size: 20px;
     text-transform: uppercase;
     color: #fff;
@@ -219,7 +229,7 @@
     border: 1px solid #036FC4;
     border-radius: 11px;
     text-align: center;
-    padding: 36px;
+    padding: 17px;
     font-size: 20px;
     text-transform: uppercase;
     color: #fff;

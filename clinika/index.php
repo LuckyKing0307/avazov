@@ -16,14 +16,14 @@
             <div class="sub_title glory700">3-APREL</div>
             <div class="sub_text glory400"><img src="img/play.svg" alt="">TRENING SANASI</div>
         </div>
+        <div class="container">
+            <div class="logo display_flex">
+                <img src="img/Oq%201.svg" alt="">
+            </div>
+        </div>
         <div class="sub_data display_flex">
             <div class="sub_title glory700">TURIN</div>
             <div class="sub_text glory400"><img src="img/play.svg" alt="">TRENING MANZILI</div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="logo display_flex">
-            <img src="img/Oq%201.svg" alt="">
         </div>
     </div>
     <div class="container header_con">
@@ -31,14 +31,14 @@
             <img src="img/avazov.png" alt="">
         </div>
         <div class="info_blog">
-            <div class="title glory700">Zamonaviy sotuv bo’limi orqali Klinikangizni daromadli biznesga aylantiring.
+            <div class="title glory700">Zamonaviy sotuv bo’limi <br> orqali Klinikangizni daromadli <br> <span class="span_bold"> biznesga aylantiring.</span>
             </div>
             <div class="sub_title_blog display_flex">
                 <div class="sub_title_text glory400">Alisher Avazovdan bepul diagnostikadan
                     o‘ting va <span class="span_bold">Zamonaviy sotuv bo’limini qurish bo’yicha Biznes tadbirga yoziling.</span>
                 </div>
                 <div class="book_blog">
-                    <img src="img/book.svg" alt="">
+                    <img src="img/book.webp" alt="">
                 </div>
             </div>
         </div>
