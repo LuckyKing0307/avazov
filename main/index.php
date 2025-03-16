@@ -164,7 +164,7 @@
         <div class="videoblog">
             <div class="video_blog">
                 <iframe width="300" height="415"
-                        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                        src="https://www.youtube.com/embed/KTd7daV4IOI">
                 </iframe>
             </div>
         </div>
@@ -213,7 +213,7 @@
 
         <div class="telegram">
             <div class="telegram_title">SAVOLLARINGIZ QOLDIMI?</div>
-            <a href="" class="telegram_link"><span class="tg_img"><img src="img/telegram.png" alt=""></span> TELEGRAMDAN
+            <a href="T.me/alisheravazovadmin" target="_blank" class="telegram_link"><span class="tg_img"><img src="img/telegram.png" alt=""></span> TELEGRAMDAN
                 YOZISH </a>
             <div class="telegram_text">Menedjer bilan bog‘laning va sizni <br>qiziqtirgan barcha savollarga javob oling!
             </div>
