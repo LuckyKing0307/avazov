@@ -48,7 +48,7 @@
         <div class="button_container">
             <div class="first_layer">
                 <div class="second_layer">
-                    <button class="register_btn glory700">Ro’xhatdan o’tish</button>
+                    <button class="register_btn glory700">Ro’yhatdan o’tish</button>
                 </div>
             </div>
         </div>
