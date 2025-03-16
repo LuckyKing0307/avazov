@@ -196,7 +196,7 @@
 
         <div class="telegram">
             <div class="telegram_title">SAVOLLARINGIZ QOLDIMI?</div>
-            <a href="T.me/alisheravazovadmin" target="_blank" class="telegram_link"><span class="tg_img"><img src="img/telegram.png" alt=""></span> TELEGRAMDAN
+            <a href="https://t.me/alisheravazovadmin" target="_blank" class="telegram_link"><span class="tg_img"><img src="img/telegram.png" alt=""></span> TELEGRAMDAN
                 YOZISH </a>
             <div class="telegram_text">Menedjer bilan bog‘laning va sizni <br>qiziqtirgan barcha savollarga javob oling!
             </div>
