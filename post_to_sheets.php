@@ -7,7 +7,7 @@ use Google\Client;
 use Google\Service\Sheets;
 
 define('SPREADSHEET_ID', '1OG8wUkocB4KBgrUhfLL9uF5m9vdrWpZW0E_6Z0AP-Ks'); // Замените на ID вашей Google Sheets
-define('SERVICE_ACCOUNT_JSON', 'keys.json'); // Путь к JSON-файлу сервисного аккаунта
+define('SERVICE_ACCOUNT_JSON', '/home/alisher9/public_html/keys.json'); // Путь к JSON-файлу сервисного аккаунта
 
 function writeToGoogleSheets($postData) {
     $client = new Client();
