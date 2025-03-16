@@ -138,17 +138,28 @@
         <div class="video_title">
             ISHTIROKCHILARNING <br>TRENINGDAN OLGAN NATIJALARI
         </div>
-
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/BVNl5Liwayc?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/jOf0MftMuP8?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/3E991Y15oMs?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/hytJv4cCDAQ?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
                     <iframe class="video" src="https://www.youtube.com/embed/KTd7daV4IOI?rel=0&modestbranding=1&showinfo=0"></iframe>
-                </div>
-                <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1&showinfo=0"></iframe>
-                </div>
-                <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/LXb3EKWsInQ?rel=0&modestbranding=1&showinfo=0"></iframe>
                 </div>
             </div>
         </div>
