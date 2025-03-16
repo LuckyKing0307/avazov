@@ -84,7 +84,8 @@
     align-items: center;
 }
 .book_blog{
-    width: 300px;
+    width: 400px;
+    margin-right: -43px;
 }
 .book_blog img{
     width: 100%;
