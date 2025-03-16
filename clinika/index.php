@@ -128,11 +128,11 @@
         <div class="list_biznes">
             <div class="biznes_item">
                 <img src="img/7%201.svg" alt="">
-                <div class="biznes_item_text">30 yillik tajribaga ega tadbirkor</div>
+                <div class="biznes_item_text">30 yillik tajribaga ega<br> tadbirkor</div>
             </div>
             <div class="biznes_item">
                 <img src="img/7%201.svg" alt="">
-                <div class="biznes_item_text">Europol, Nefrit suv va Amerikadagi <br>birnecha kompaniyalar asoschisi
+                <div class="biznes_item_text">Europol, Nefrit suv va <br> Amerikadagi birnecha<br> kompaniyalar asoschisi
                 </div>
             </div>
             <div class="biznes_item">
