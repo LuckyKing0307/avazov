@@ -5,7 +5,7 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 use Google\Client;
 use Google\Service\Sheets;
-$key = file_put_contents('keys.json');
+$key = file_get_contents('keys.json');
 var_dump($key);
 //define('SPREADSHEET_ID', '1OG8wUkocB4KBgrUhfLL9uF5m9vdrWpZW0E_6Z0AP-Ks'); // Замените на ID вашей Google Sheets
 //define('SERVICE_ACCOUNT_JSON', ''); // Путь к JSON-файлу сервисного аккаунта
