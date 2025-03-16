@@ -67,6 +67,7 @@
 }
 .header_main>img{
     width: 100%;
+    margin-left: 10%;
 }
 .info_blog{
     position: relative;
@@ -101,7 +102,7 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 .span_bold{
     font-weight: 800;
