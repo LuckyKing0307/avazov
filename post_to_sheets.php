@@ -5,8 +5,9 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 require 'vendor/autoload.php';
 use Google\Client;
-
 define('SERVICE_ACCOUNT_JSON', '/home/alisher9/public_html/keys.json');
+
+$file = json_decode(SERVICE_ACCOUNT_JSON,1);
 
 $client = new Client();
 
