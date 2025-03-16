@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('main/fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('main/fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background: #F4F4F4;
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    text-align: center;
+    color: #2B384B;
+}
+.span_bold{
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.bonus{
+    margin-top: -80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #2B384B;
+}
+.sub_title{
+    margin-top: 5px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #2B384B;
+}
+.blocked{
+    background: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+.img_wraper{
+    width: 120%;
+    margin: 0 auto;
+    margin-left: -10%;
+}
+.img_wraper img{
+    width: 100%;
+}
+.text{
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #2B384B;
+}
+.button_container{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.first_layer{
+    width: 100%;
+    padding: 5px;
+    background: #F2994A80;
+    border-radius: 55px;
+}
+.second_layer{
+    width: 100%;
+    padding: 4px;
+    background: #F2994A80;
+    border-radius: 55px;
+}
+.register_btn{
+    background: #F2994A;
+    width: 100%;
+    border: none;
+    border-radius: 55px;
+    text-align: center;
+    padding: 28px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.register_btn a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
