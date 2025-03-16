@@ -132,20 +132,17 @@
         </div>
     </div>
 </section>
-<div class="btned">
-    <button class=" register_btn glory700 exp-btn exp_biznes_btn">RO‘YXATDAN O‘TISH</button>
-</div>
 <section class="videos">
     <div class="section_container">
+        <div class="video_title">
+            ISHTIROKCHILARNING <br>TRENINGDAN OLGAN NATIJALARI
+        </div>
         <div class="videoblog">
             <div class="video_blog">
                 <iframe width="350" height="415"
                         src="https://www.youtube.com/embed/KTd7daV4IOI">
                 </iframe>
             </div>
-        </div>
-        <div class="video_title">
-            ISHTIROKCHILARNING <br>TRENINGDAN OLGAN NATIJALARI
         </div>
         <div class="stars">
             <img src="img/Stars.webp" alt="">
@@ -208,7 +205,7 @@
         </div>
 
         <div id="form1" class="form-container active">
-            <h3>Biznes yo‘nalishingiz? (sohalar bo‘yicha)</h3>
+            <h3>Sizning kompayinagizdagi rolingiz qanday?</h3>
             <div class="custom-select" id="customSelect1">
                 <div class="select-display">
                     <span class="selected-indicator"></span>
