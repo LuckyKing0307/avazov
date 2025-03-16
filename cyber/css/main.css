@@ -190,17 +190,17 @@ header{
     justify-content: center;
     margin-top: -10px;
 }
-/*.timer_container:after{*/
-/*    content: '';*/
-/*    background: url("../img/strelka.png");*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*    width: 90px;*/
-/*    height: 117px;*/
-/*    position: absolute;*/
-/*    right: 30px;*/
-/*    top: -150%;*/
-/*}*/
+.timer_container:after{
+    content: '';
+    background: url("../img/strelka.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 74px;
+    height: 100px;
+    position: absolute;
+    right: 60px;
+    top: -115%;
+}
 .timer{
     padding: 5px 15px;
     border: 0.5px solid #fff;
