@@ -236,7 +236,7 @@
             <div class="custom-select" id="customSelect1">
                 <div class="select-display">
                     <span class="selected-indicator"></span>
-                    <span>Выберите</span>
+                    <span>Tanlang</span>
                 </div>
                 <div class="select-options">
                     <div data-value="Biznes egasi | Ta’sischi">Biznes egasi | Ta’sischi</div>
@@ -255,7 +255,7 @@
             <div class="custom-select" id="customSelect2">
                 <div class="select-display">
                     <span class="selected-indicator"></span>
-                    <span>Выберите</span>
+                    <span>Tanlang</span>
                 </div>
                 <div class="select-options">
                     <div data-value="Ishlab chiqarish">Ishlab chiqarish</div>
@@ -278,7 +278,7 @@
             <div class="custom-select" id="customSelect3">
                 <div class="select-display">
                     <span class="selected-indicator"></span>
-                    <span>Выберите</span>
+                    <span>Tanlang</span>
                 </div>
                 <div class="select-options">
                     <div data-value="5 tagacha xodim">5 tagacha xodim</div>
@@ -296,8 +296,8 @@
         </div>
 
         <div id="form4" class="form-container">
-            <input type="text" id="name" placeholder="Имя">
-            <input type="tel" id="phone" placeholder="Номер телефона">
+            <input type="text" id="name" placeholder="Ism va Familiya">
+            <input type="tel" id="phone" placeholder="+998 (93) 111-11-11">
             <div class="form_btns">
                 <button onclick="prevForm()" class="form_btn">Orqaga</button>
                 <button onclick="submitData()" class="form_btn">Yuborish</button>

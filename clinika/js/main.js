@@ -97,7 +97,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const seconds = totalSeconds % 60;
         timerElement.textContent = `00:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
     }
-
+    document.getElementById('phone').addEventListener('input', function (e) {
+        let x = e.target.value.replace(/\D/g, '').match(/(\d{3})(\d{0,2})(\d{0,3})(\d{0,2})(\d{0,2})/);
+        e.target.value = "+998" + (x[2] ? ` (${x[2]}` : '') + (x[3] ? `) ${x[3]}` : '') + (x[4] ? `-${x[4]}` : '') + (x[5] ? `-${x[5]}` : '');
+    });
     function startTimer() {
         const timerInterval = setInterval(() => {
             if (totalSeconds > 0) {
@@ -125,6 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         options.addEventListener("click", (event) => {
             if (event.target.matches("div")) {
+                display.style.color = '#000';
                 selectedText.textContent = event.target.textContent;
                 indicator.style.visibility = "visible";
                 options.style.display = "none";
