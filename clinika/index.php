@@ -18,7 +18,7 @@
         </div>
         <div class="container">
             <div class="logo display_flex">
-                <img src="img/Oq%201.svg" alt="">
+                <img src="img/Oq%201.webp" alt="">
             </div>
         </div>
         <div class="sub_data display_flex">
@@ -50,7 +50,7 @@
         <div class="button_container">
             <div class="first_layer">
                 <div class="second_layer">
-                    <button class="register_btn glory700">Ro’yhatdan o’tish</button>
+                    <button class="register_btn glory700">Ro’xhatdan o’tish</button>
                 </div>
             </div>
         </div>

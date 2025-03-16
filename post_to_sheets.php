@@ -8,7 +8,7 @@ use Google\Client;
 define('SERVICE_ACCOUNT_JSON', 'keys.json');
 
 $file = json_decode(file_get_contents('keys.json'),1);
-var_dump($file);
+var_dump(file_get_contents('keys.json'));
 $client = new Client();
 
 try {

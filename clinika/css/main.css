@@ -56,6 +56,10 @@
 }
 .logo{
     justify-content: center;
+    width: 100px;
+}
+.logo img{
+    width: 100%;
 }
 .header_con{
     position: relative;
