@@ -26,7 +26,7 @@
     </div>
     <div class="container header_con">
         <div class="header_main">
-            <img src="img/avazov.png" alt="">
+            <img src="img/avazov.webp" alt="">
         </div>
         <div class="info_blog">
             <div class="title glory700"><p style="color: #fff">Konsalting biznesingizni</p></div>

@@ -133,7 +133,7 @@ header{
 .header_main{
     background: url("../img/bg.png") no-repeat 0 13%;
     background-size: 100% auto;
-    margin-top: -80px;
+    margin-top: -140px;
     display: flex;
     justify-content: center;
 }
