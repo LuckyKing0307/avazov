@@ -7,5 +7,6 @@ require 'vendor/autoload.php';
 use Google\Client;
 define('SERVICE_ACCOUNT_JSON', 'keys.json');
 
-$file = json_decode(file_get_contents('keys.json'),1);
-var_dump(json_decode(file_get_contents('keys.json'),1));
+$file = file_get_contents('keys.json');
+var_dump($file);
+var_dump(json_decode($file,1));
