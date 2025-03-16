@@ -89,7 +89,8 @@ header{
     margin-top: -80px;
 }
 .header_main>img{
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: -100px;
 }
 .info_blog{
