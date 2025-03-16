@@ -149,7 +149,7 @@
     <div class="section_container">
         <div class="videoblog">
             <div class="video_blog">
-                <iframe width="350" height="415"
+                <iframe width="100" height="415"
                         src="https://www.youtube.com/embed/tgbNymZ7vqY">
                 </iframe>
             </div>
