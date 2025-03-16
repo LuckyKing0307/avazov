@@ -59,7 +59,7 @@ function submitData() {
     } else {
         formData.name = document.getElementById("name").value;
         formData.phone = document.getElementById("phone").value;
-        fetch('http://localhost/avazov/post_to_sheets.php', {
+        fetch('https://alisheravazov.uz/post_to_sheets.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
