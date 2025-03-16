@@ -97,7 +97,7 @@
             </div>
         </div>
 
-        <button class="register_btn cta-button">RO‘YXATDAN O‘TISH</button>
+        <button class="register_btn cta-button">RO‘YHATDAN O‘TISH</button>
     </div>
 </section>
 <section class="experience">
@@ -125,7 +125,7 @@
                         class="span_bold">karra karra o‘stirmoqchi bo‘lsangiz</span></p>
         </div>
 
-        <button class="register_btn glory700 exp-btn">RO‘YXATDAN O‘TISH</button>
+        <button class="register_btn glory700 exp-btn">RO‘YHATDAN O‘TISH</button>
     </div>
 </section>
 <section class="biznes">
@@ -149,7 +149,7 @@
                 <div class="biznes_item_text">O’zbekistom boʻylab <br>13 ta filialga ega</div>
             </div>
         </div>
-        <button class="biznes_btn register_btn glory700 exp-btn">RO‘YXATDAN O‘TISH</button>
+        <button class="biznes_btn register_btn glory700 exp-btn">RO‘YHATDAN O‘TISH</button>
     </div>
 </section>
 <section class="videos">
@@ -228,7 +228,7 @@
             <div class="proccess">25%</div>
         </div>
         <div class="form_text">
-            Biznes tadbirga ro‘yxatdan o‘tib, biznesgizni bepul <br>diagnostika qildirishdan oldin quyidagi anketani
+            Biznes tadbirga RO‘YHATDAN o‘tib, biznesgizni bepul <br>diagnostika qildirishdan oldin quyidagi anketani
             to’ldiring:
         </div>
         <div id="form1" class="form-container active">

@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/select.css">
     <title>Document</title>
 </head>
@@ -85,7 +86,7 @@
             <hr>
         </div>
 
-        <button class="register_btn cta-button">RO‘YXATDAN O‘TISH</button>
+        <button class="register_btn cta-button">RO‘YHATDAN O‘TISH</button>
     </div>
 </section>
 <section class="experience">
@@ -104,7 +105,7 @@
             <img src="img/chess.webp" alt="">
             <div class="exp_text">Mijozlarni kutish o‘rniga, ularga tizimli yondashib, sotuv jarayonini tezlashtirishni xohlasangiz.</div></div>
         <div class="btned">
-            <button class=" register_btn glory700 exp-btn exp_biznes_btn">RO‘YXATDAN O‘TISH</button>
+            <button class=" register_btn glory700 exp-btn exp_biznes_btn">RO‘YHATDAN O‘TISH</button>
         </div>
     </div>
 </section>
@@ -137,11 +138,18 @@
         <div class="video_title">
             ISHTIROKCHILARNING <br>TRENINGDAN OLGAN NATIJALARI
         </div>
-        <div class="videoblog">
-            <div class="video_blog">
-                <iframe width="350" height="415"
-                        src="https://www.youtube.com/embed/KTd7daV4IOI">
-                </iframe>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/KTd7daV4IOI?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/LXb3EKWsInQ?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
             </div>
         </div>
         <div class="stars">
@@ -200,7 +208,7 @@
             <div class="proccess">25%</div>
         </div>
         <div class="form_text">
-            Biznes tadbirga ro‘yxatdan o‘tib, biznesgizni bepul <br>diagnostika qildirishdan oldin quyidagi anketani
+            Biznes tadbirga RO‘YHATDAN o‘tib, biznesgizni bepul <br>diagnostika qildirishdan oldin quyidagi anketani
             to’ldiring:
         </div>
 
@@ -279,5 +287,30 @@
     </div>
 </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        on: {
+            slideChange: function () {
+                document.querySelectorAll('.video').forEach(iframe => {
+                    iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+                });
+            }
+        }
+    });
+</script>
 <script src="js/main.js"></script>
 </html>
