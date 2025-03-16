@@ -5,17 +5,16 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 require 'vendor/autoload.php';
 use Google\Client;
-$file = file_get_contents('keys.json');
-var_dump($file);
-define('SERVICE_ACCOUNT_JSON', 'keys.json');
+
+define('SERVICE_ACCOUNT_JSON', '/home/alisher9/public_html/keys.json');
 
 $client = new Client();
-$client->setAuthConfig(SERVICE_ACCOUNT_JSON);
-$client->setScopes(['https://www.googleapis.com/auth/spreadsheets.readonly']);
 
 try {
+    $client->setAuthConfig(SERVICE_ACCOUNT_JSON);
+    $client->setScopes(['https://www.googleapis.com/auth/spreadsheets.readonly']);
     $client->fetchAccessTokenWithAssertion();
-    echo "Авторизация прошла успешно!";
+    echo "✅ Авторизация прошла успешно!";
 } catch (Exception $e) {
-    echo "Ошибка: " . $e->getMessage();
+    echo "❌ Ошибка: " . $e->getMessage();
 }
