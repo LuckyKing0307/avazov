@@ -82,6 +82,7 @@ input{
     display: flex;
     align-items: center;
     color: #000;
+    font-size: 20px;
 }
 .form{
     margin-top: 10px;
