@@ -59,10 +59,28 @@ function submitData() {
     } else {
         formData.name = document.getElementById("name").value;
         formData.phone = document.getElementById("phone").value;
+        fetch('http://localhost/avazov/post_to_sheets.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: new URLSearchParams(formData)
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log("Ответ от сервера:", data);
+                if (data.success) {
+                    alert("Данные успешно отправлены!");
+                } else {
+                    alert("Ошибка при отправке: " + data.message);
+                }
+            })
+            .catch(error => {
+                console.error("Ошибка запроса:", error);
+                alert("Ошибка соединения с сервером!");
+            });
+        saveData();
     }
-    saveData();
-    console.log("Отправляем на бэкенд:", formData);
-    alert("Данные отправлены!");
 }
 
 document.addEventListener("DOMContentLoaded", function () {

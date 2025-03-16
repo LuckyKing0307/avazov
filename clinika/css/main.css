@@ -59,6 +59,7 @@
 }
 .header_con{
     position: relative;
+    overflow: hidden;
 }
 .header_main{
     background: url("../img/bg.png") no-repeat 0 13%;

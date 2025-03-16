@@ -245,9 +245,10 @@
                     <span>Выберите</span>
                 </div>
                 <div class="select-options">
-                    <div data-value="A">Опция A</div>
-                    <div data-value="B">Опция B</div>
-                    <div data-value="C">Опция C</div>
+                    <div data-value="Biznes egasi | Ta’sischi">Biznes egasi | Ta’sischi</div>
+                    <div data-value="Direktor | Rahbar">Direktor | Rahbar</div>
+                    <div data-value="Top-menejer">Top-menejer</div>
+                    <div data-value="Boshqa">Boshqa</div>
                 </div>
             </div>
             <div class="form_btns">
@@ -263,9 +264,13 @@
                     <span>Выберите</span>
                 </div>
                 <div class="select-options">
-                    <div data-value="X">Опция X</div>
-                    <div data-value="Y">Опция Y</div>
-                    <div data-value="Z">Опция Z</div>
+                    <div data-value="Ishlab chiqarish">Ishlab chiqarish</div>
+                    <div data-value="Qurilish">Qurilish</div>
+                    <div data-value="Consulting">Consulting</div>
+                    <div data-value="Ta’lim">Ta’lim</div>
+                    <div data-value="Klinika">Klinika</div>
+                    <div data-value="IT-kompaniya">IT-kompaniya</div>
+                    <div data-value="Boshqa">Boshqa</div>
                 </div>
             </div>
             <div class="form_btns">
@@ -282,9 +287,12 @@
                     <span>Выберите</span>
                 </div>
                 <div class="select-options">
-                    <div data-value="1">Опция 1</div>
-                    <div data-value="2">Опция 2</div>
-                    <div data-value="3">Опция 3</div>
+                    <div data-value="5 tagacha xodim">5 tagacha xodim</div>
+                    <div data-value="5-10 xodim">5-10 xodim</div>
+                    <div data-value="11-50 xodim">11-50 xodim</div>
+                    <div data-value="51-100 xodim">51-100 xodim</div>
+                    <div data-value="101-200 xodim">101-200 xodim</div>
+                    <div data-value="201-500 xodim">201-500 xodim</div>
                 </div>
             </div>
             <div class="form_btns">
