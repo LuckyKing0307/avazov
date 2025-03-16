@@ -60,35 +60,34 @@
     </div>
 </header>
 <section class="dop_info">
-    <div class="section_container">
+    <div class="section_container" style="background: #fff;">
         <div class="header">
             <div class="top-decor"></div>
-            <h2 class="title_info_clikic">KLINIKADA SOTUV BO'LIMI <br> TIZIMLI ISHLAMASA QANDAY <br> <span
-                        class="span_bold">MUAMMOLARGA DUCH KELASIZ?</span></h2>
+            <h2 class="title_info_clikic">Biznesingizda <br> <span
+                        class="span_bg">sotuv bo'limi tizimli</span> <br> ishlamasa</h2>
         </div>
 
         <div class="cards">
             <div class="card">
-                <div class="img_wrap_card"><img src="img/2%201.svg" alt="Icon"></div>
-                <p>Shifokorlarning ish jadvali va uskunalarning
-                    bekor turishi <span class="span_bold">to‘g‘ridan to‘g‘ri foyda
-                    yo‘qotilishiga olib keladi.</span></p>
+                <div class="img_wrap_card"><div>1</div></div>
+                <p>Sarafan orqali keladigan mijozlar yetarli emas – yangi mijozlarni jalb qilish tizimli ishlamagani uchun biznes o‘sishi sust kechadi.</span></p>
             </div>
+            <hr>
             <div class="card">
-                <div class="img_wrap_card"><img src="img/3%201.svg" alt="Icon"></div>
-                <p>Bemorlarga chegirma berdingiz, lekin ular <span
-                            class="span_bold">raqobatchilarga ketib qolmoqda.</span></p>
+                <div class="img_wrap_card"><div>2</div></div>
+                <p>Mijozlar arzon xizmatni izlab, qimmatli maslahatlaringizni tekin olishga harakat  qiladi – natijada professional xizmatlar  uchun kamroq to‘lashadi.</p>
             </div>
+            <hr>
             <div class="card">
-                <div class="img_wrap_card"><img src="img/4%201.svg" alt="Icon"></div>
-                <p>Mijozlarni jalb qilishda nazorat yo‘q – siz qancha <span class="span_bold">potensial mijozlarni yo‘qotayotganingizni bilmayapsiz.</span>
-                </p>
+                <div class="img_wrap_card"><div>3</div></div>
+                <p>Reklama va marketing natija bermaydi noto‘g‘ri sotuv strategiyasi tufayli e’lonlar va reklama arzon mijozlarni jalb qiladi,  lekin savdo yopilmaydi.</p>
             </div>
+            <hr>
             <div class="card">
-                <div class="img_wrap_card"><img src="img/5%201.svg" alt="Icon"></div>
-                <p>Bir martda kelgan mijozni <span class="span_bold">qayta sotuvga jalb qilmayapsiz (Retention).</span>
-                </p>
+                <div class="img_wrap_card"><div>4</div></div>
+                <p>Xizmat narxini asoslab bera olmaysiz mijozlarga qimmat xizmat qiymatini tushuntirish qiyin bo‘ladi, natijada ularga arzonroq variantlar qiziqroq tuyuladi.</p>
             </div>
+            <hr>
         </div>
 
         <button class="register_btn cta-button">RO‘YXATDAN O‘TISH</button>

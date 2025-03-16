@@ -182,14 +182,12 @@ header{
     color: #fff;
 }
 .section_container{
-    margin-top: 70px;
-    width: 100%;
-    background: #F2FAFF;
+    width: 90%;
     position: relative;
     border-radius: 22px;
     max-width: 100%;
-    padding: 20px;
-    padding-top: 50px;
+    padding: 50px 20px 20px;
+    margin: 70px auto 0;
     text-align: center;
 }
 .section_container::before {
@@ -240,6 +238,7 @@ header{
 .title_info_clikic{
     font-family: 'Gilroy', sans-serif;
     font-weight: 400;
+    text-align: left;
 }
 .title_exp{
     font-family: 'Gilroy', sans-serif;
