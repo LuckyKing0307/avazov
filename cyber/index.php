@@ -36,7 +36,7 @@
                     o‘ting va <span class="span_bold span_gold">Zamonaviy sotuv bo’limini qurish bo’yicha Biznes tadbirga yoziling.</span>
                 </div>
                 <div class="book_blog">
-                    <img src="img/book.svg" alt="">
+                    <img src="img/book.webp" alt="">
                 </div>
             </div>
         </div>
