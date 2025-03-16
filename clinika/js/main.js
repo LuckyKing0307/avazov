@@ -98,9 +98,15 @@ document.addEventListener("DOMContentLoaded", function () {
         timerElement.textContent = `00:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
     }
     document.getElementById('phone').addEventListener('input', function (e) {
-        let x = e.target.value.replace(/\D/g, '').match(/(\d{3})(\d{0,2})(\d{0,3})(\d{0,2})(\d{0,2})/);
-        e.target.value = "+998" + (x[2] ? ` (${x[2]}` : '') + (x[3] ? `) ${x[3]}` : '') + (x[4] ? `-${x[4]}` : '') + (x[5] ? `-${x[5]}` : '');
+        let x = e.target.value.replace(/\D/g, '').replace(/^998/, '').match(/(\d{0,2})(\d{0,3})(\d{0,2})(\d{0,2})/);
+        e.target.value = "+998" + (x[1] ? ` (${x[1]}` : '') + (x[2] ? `) ${x[2]}` : '') + (x[3] ? `-${x[3]}` : '') + (x[4] ? `-${x[4]}` : '');
         e.target.style.color = '#000';
+    });
+
+    document.getElementById('phone').addEventListener('keydown', function (e) {
+        if (e.target.value.length <= 5 && e.key === "Backspace") {
+            e.preventDefault();
+        }
     });
     function startTimer() {
         const timerInterval = setInterval(() => {

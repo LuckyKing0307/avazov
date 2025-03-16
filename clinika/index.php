@@ -289,8 +289,8 @@
 
         <div id="form4" class="form-container">
             <input type="text" id="name" placeholder="Ism va Familiya">
-            <input type="tel" id="phone" placeholder="+998 (93) 111-11-11">
-            <div class="form_btns">
+            <input type="tel" id="phone" placeholder="111-11-11" value="+998">
+ч            <div class="form_btns">
                 <button onclick="prevForm()" class="form_btn">Orqaga</button>
                 <button onclick="submitData()" class="form_btn">Yuborish</button>
             </div>
