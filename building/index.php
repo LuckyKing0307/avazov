@@ -228,7 +228,7 @@
             <div class="proccess">25%</div>
         </div>
         <div class="form_text">
-            Biznes tadbirga RO‘YHATDAN o‘tib, biznesgizni bepul <br>diagnostika qildirishdan oldin quyidagi anketani
+            Biznes tadbirga RO‘YHATDAN o‘tib, biznesgizni bepul diagnostika qildirishdan oldin quyidagi anketani
             to’ldiring:
         </div>
         <div id="form1" class="form-container active">

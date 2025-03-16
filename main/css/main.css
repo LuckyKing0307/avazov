@@ -74,6 +74,17 @@ header{
 }
 .logo{
     justify-content: center;
+    width: 100px;
+}
+.logo img{
+    width: 100%;
+}
+.book_blog{
+    width: 150px;
+    margin-left: -30px;
+}
+.book_blog img{
+    width: 100%;
 }
 .header_con{
     position: relative;
@@ -120,6 +131,7 @@ header{
     position: absolute;
     bottom: 0;
     right: 0;
+    overflow: hidden;
 }
 .images_section>img{
     width: 100%;

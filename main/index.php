@@ -17,7 +17,7 @@
             <div class="sub_text glory400"><img src="img/play.svg" alt="">TRENING SANASI</div>
         </div>
         <div class="logo display_flex">
-            <img src="img/Oq%201.svg" alt="">
+            <img src="img/Oq%201.webp" alt="">
         </div>
         <div class="sub_data display_flex">
             <div class="sub_title glory700">TURIN</div>
@@ -40,7 +40,7 @@
                     o‘ting va Zamonaviy sotuv bo’limini qurish bo’yicha <span class="span_bold">Biznes tadbirga yoziling.</span>
                 </div>
                 <div class="book_blog">
-                    <img src="img/book.svg" alt="">
+                    <img src="img/book.webp" alt="">
                 </div>
                 <img src="img/img.png" alt="" class="cross">
             </div>
@@ -234,7 +234,7 @@
             <div class="proccess">25%</div>
         </div>
         <div class="form_text">
-            Biznes tadbirga RO‘YHATDAN o‘tib, biznesgizni bepul <br>diagnostika qildirishdan oldin quyidagi anketani
+            Biznes tadbirga RO‘YHATDAN o‘tib, biznesgizni bepul diagnostika qildirishdan oldin quyidagi anketani
             to’ldiring:
         </div>
         <div id="form1" class="form-container active">
