@@ -102,7 +102,7 @@ body{
     line-height: 100%;
 }
 .info_data{
-    padding: 15px;
+    padding: 0 30px;
     padding-bottom: 0;
 }
 .sub_data{
@@ -133,19 +133,19 @@ header{
 .header_main{
     background: url("../img/bg.png") no-repeat 0 13%;
     background-size: 100% auto;
-    margin-top: -160px;
+    margin-top: -170px;
     display: flex;
     justify-content: center;
 }
 .header_main>img{
-    width: 110%;
+    width: 120%;
     margin: 0 auto;
     margin-bottom: -100px;
 }
 .info_blog{
     position: relative;
     width: 100%;
-    margin-top: -50%;
+    margin-top: -66%;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -153,7 +153,7 @@ header{
 }
 .title{
     width: 100%;
-    font-size: 21px;
+    font-size: 26px;
     text-align: center;
     text-transform: uppercase;
     background: linear-gradient(90deg, #2EFBA2 0%, #0BD8E7 100%);
@@ -162,7 +162,7 @@ header{
 }
 .sub_header_title{
     margin-top: 5px;
-    font-size: 19px;
+    font-size: 21px;
     font-weight: 500;
 }
 .sub_title_blog{
@@ -170,7 +170,7 @@ header{
     align-items: center;
 }
 .sub_title_text{
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 18px;
     margin-top: 10px;
@@ -212,7 +212,7 @@ header{
 .button_container{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: -5px;
 }
 .first_layer{
     width: 80%;
@@ -233,7 +233,7 @@ header{
     border-radius: 11px;
     text-align: center;
     padding: 20px 36px;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
     color: #4B4B4A;
 }

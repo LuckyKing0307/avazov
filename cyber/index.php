@@ -40,11 +40,6 @@
                 </div>
             </div>
         </div>
-        <div class="timer_container">
-            <div class="timer">
-                00:05:00
-            </div>
-        </div>
         <div class="button_container">
             <div class="first_layer">
                 <div class="second_layer">
