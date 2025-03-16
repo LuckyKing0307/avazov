@@ -67,7 +67,10 @@ function submitData() {
             },
             body: new URLSearchParams(formData)
         })
-            .then(response => response.json())
+            .then(response => {
+                console.error("Ошибка запроса:", response);
+                alert("Ошибка соединения с сервером!");
+            })
             .then(data => {
                 console.log("Ответ от сервера:", data);
                 if (data.success) {
