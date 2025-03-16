@@ -403,6 +403,23 @@ h2 {
     margin: 0;
     flex: 1;
 }
+.swiper {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    margin-top: 40px;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    max-width: 560px;
+    max-height: 315px;
+}
 
 hr {
     border: none;

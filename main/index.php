@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/select.css">
     <title>Document</title>
 </head>
@@ -164,11 +165,29 @@
         <div class="video_title">
             ISHTIROKCHILARNING <br>TRENINGDAN OLGAN NATIJALARI
         </div>
-        <div class="videoblog">
-            <div class="video_blog">
-                <iframe width="300" height="415"
-                        src="https://www.youtube.com/embed/KTd7daV4IOI">
-                </iframe>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/BVNl5Liwayc?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/jOf0MftMuP8?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/3E991Y15oMs?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/hytJv4cCDAQ?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/KTd7daV4IOI?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
             </div>
         </div>
         <div class="stars">
@@ -303,7 +322,6 @@
 
         <div id="form4" class="form-container">
             <input type="text" id="name" placeholder="Ism va Familiya">
-            <input type="tel" id="phone" placeholder="+998 (93) 111-11-11">
             <input type="tel" id="phone" placeholder="111-11-11" value="+998">
             <div class="form_btns">
                 <button onclick="prevForm()" class="form_btn">Orqaga</button>
@@ -313,5 +331,30 @@
     </div>
 </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        on: {
+            slideChange: function () {
+                document.querySelectorAll('.video').forEach(iframe => {
+                    iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+                });
+            }
+        }
+    });
+</script>
 <script src="js/main.js"></script>
 </html>
