@@ -17,7 +17,7 @@
             <div class="sub_text glory400"><img src="img/play.svg" alt="">TRENING SANASI</div>
         </div>
         <div class="logo display_flex">
-            <img src="img/logo.svg" alt="">
+            <img src="img/Oq%201.webp" alt="">
         </div>
         <div class="sub_data display_flex">
             <div class="sub_title glory700">TURIN</div>
@@ -29,8 +29,8 @@
             <img src="img/avazov.png" alt="">
         </div>
         <div class="info_blog">
-            <div class="title glory700"><p style="color: #fff">Konsalting biznesingizni</p> Klinikangizni daromadli biznesga aylantiring.
-            </div>
+            <div class="title glory700"><p style="color: #fff">Konsalting biznesingizni</p></div>
+            <div class="title glory700 sub_header_title">Zamonaviy sotuv bo’limi <br> orqali karra karra o’stiring</div>
             <div class="sub_title_blog display_flex">
                 <div class="sub_title_text glory400">Alisher Avazovdan bepul diagnostikadan
                     o‘ting va <span class="span_bold span_gold">Zamonaviy sotuv bo’limini qurish bo’yicha Biznes tadbirga yoziling.</span>
@@ -90,17 +90,18 @@
 </section>
 <section class="experience">
     <div class="container_exp">
+        <h2 class="title_exp">BIZNES TADBIR <br>SIZGA <span class="span_gold"> ANIQ FOYDA<br>  BERADI, AGAR...</span></h2>
         <div class="exp_item">
             <div class="exp_text">Siz konsalting biznesi bilan shug‘ullansangiz va xizmatlaringizni qimmat narxda sotishni istasangiz.</div>
-            <img src="img/money.png" alt=""></div>
+            <img src="img/gold.webp" alt=""></div>
         <div class="exp_item">
-            <img src="img/cube.png" alt="">
+            <img src="img/box.webp" alt="">
             <div class="exp_text">Mijozlarni jalb qilish va sotuv tizimini yaratish bo‘yicha real strategiyalarni o‘rganmoqchi bo‘lsangiz.</div></div>
         <div class="exp_item">
             <div class="exp_text">Marketing va sotuv integratsiyasini tushunib, daromadingizni  oshirmoqchi bo‘lsangiz.</div>
-            <img src="img/horn.png" alt=""></div>
+            <img src="img/horn.webp" alt=""></div>
         <div class="exp_item">
-            <img src="img/chess.png" alt="">
+            <img src="img/chess.webp" alt="">
             <div class="exp_text">Mijozlarni kutish o‘rniga, ularga tizimli yondashib, sotuv jarayonini tezlashtirishni xohlasangiz.</div></div>
         <div class="btned">
             <button class=" register_btn glory700 exp-btn exp_biznes_btn">RO‘YXATDAN O‘TISH</button>
@@ -112,7 +113,7 @@
         <div class="biznes_title">
             BIZNES TADBIR <br>SPIKERI
         </div>
-        <img src="img/Алишер%20Авазов.png" alt="" class="AlisherText">
+        <img src="img/alishersign.png" alt="" class="AlisherText">
         <div class="list_biznes">
             <div class="biznes_item">
                 <img src="img/check%203.svg" alt="">
@@ -127,6 +128,7 @@
                 <img src="img/check%203.svg" alt="">
                 <div class="biznes_item_text">O’zbekistom boʻylab <br>13 ta filialga ega</div>
             </div>
+
         </div>
     </div>
 </section>
@@ -146,7 +148,7 @@
             ISHTIROKCHILARNING <br>TRENINGDAN OLGAN NATIJALARI
         </div>
         <div class="stars">
-            <img src="img/Stars.svg" alt="">
+            <img src="img/Stars.webp" alt="">
         </div>
     </div>
 </section>
@@ -178,13 +180,13 @@
             <p class="answer">Albatta, ayollar uchun alohida qatorlar ajratganmiz</p>
         </div>
 
-<!--        <div class="telegram">-->
-<!--            <div class="telegram_title">SAVOLLARINGIZ QOLDIMI?</div>-->
-<!--            <a href="" class="telegram_link"><span class="tg_img"><img src="img/telegram.png" alt=""></span> TELEGRAMDAN-->
-<!--                YOZISH </a>-->
-<!--            <div class="telegram_text">Menedjer bilan bog‘laning va sizni <br>qiziqtirgan barcha savollarga javob oling!-->
-<!--            </div>-->
-<!--        </div>-->
+        <div class="telegram">
+            <div class="telegram_title">SAVOLLARINGIZ QOLDIMI?</div>
+            <a href="" class="telegram_link"><span class="tg_img"><img src="img/telegram.png" alt=""></span> TELEGRAMDAN
+                YOZISH </a>
+            <div class="telegram_text">Menedjer bilan bog‘laning va sizni <br>qiziqtirgan barcha savollarga javob oling!
+            </div>
+        </div>
     </div>
 </section>
 

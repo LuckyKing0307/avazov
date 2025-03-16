@@ -75,6 +75,7 @@ input{
     margin-top: 32px;
     width: 100%;
     padding: 10px;
+    height: 60px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background: white;

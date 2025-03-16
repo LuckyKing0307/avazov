@@ -64,28 +64,35 @@
         <div class="header">
             <div class="top-decor"></div>
             <h2 class="title_info_clikic">Biznesingizda <br> <span
-                        class="span_bg">sotuv bo'limi tizimli</span> <br> ishlamasa</h2>
+                        class="span_bg">sotuv bo'limi</span> tizimli <br> ishlamasa</h2>
         </div>
-
+        <div class="sub_info_text">
+            qanday muammolarga <br>duch kelasiz?
+        </div>
         <div class="cards">
             <div class="card">
                 <div class="img_wrap_card"><div>1</div></div>
-                <p>Sarafan orqali keladigan mijozlar yetarli emas – yangi mijozlarni jalb qilish tizimli ishlamagani uchun biznes o‘sishi sust kechadi.</span></p>
+                <p>Reklama xarajatlari ko‘p, lekin mijozlar  kam – marketingga pul sarflaysiz,
+                    ammo natija kutilgandek bo‘lmaydi.</span></p>
             </div>
             <hr>
             <div class="card">
                 <div class="img_wrap_card"><div>2</div></div>
-                <p>Mijozlar arzon xizmatni izlab, qimmatli maslahatlaringizni tekin olishga harakat  qiladi – natijada professional xizmatlar  uchun kamroq to‘lashadi.</p>
+                <p>Mijozlarni ushlab qolish tizimi yo‘q – eski
+                    mijozlar sizga qaytmaydi, <span class="span_bold">har safar  yangilarini qidirishga majbur bo‘lasiz.</span></p>
             </div>
             <hr>
             <div class="card">
                 <div class="img_wrap_card"><div>3</div></div>
-                <p>Reklama va marketing natija bermaydi noto‘g‘ri sotuv strategiyasi tufayli e’lonlar va reklama arzon mijozlarni jalb qiladi,  lekin savdo yopilmaydi.</p>
+                <p><span class="span_bold">Xodimlar tartibsiz ishlaydi</span>, reja va KPI  yo‘q – sotuvchilar o‘zicha harakat qiladi,
+                    tizimli nazorat yo‘qligi sababli natija
+                    pasayadi.
+                </p>
             </div>
             <hr>
             <div class="card">
                 <div class="img_wrap_card"><div>4</div></div>
-                <p>Xizmat narxini asoslab bera olmaysiz mijozlarga qimmat xizmat qiymatini tushuntirish qiyin bo‘ladi, natijada ularga arzonroq variantlar qiziqroq tuyuladi.</p>
+                <p>Mijozlar sizdan faqat narx so‘rab chiqib ketadi – chunki ularga sizning <span class="span_bold">mahsulotingizning afzalliklari  tushuntirilmagan.</span></p>
             </div>
             <hr>
         </div>
@@ -95,27 +102,23 @@
 </section>
 <section class="experience">
     <div class="container_exp">
-        <h2 class="title_exp">BIZNES TADBIR SIZGA <br> ANIQ FOYDA BERADI, AGAR...</h2>
+        <h2 class="title_exp">BIZNES TADBIR SIZGA <br> ANIQ FOYDA<br>  BERADI, AGAR...</h2>
 
         <div class="exp-item">
-            <img src="img/check 3.svg" alt="Check">
-            <p>Siz klinika rahbari bo‘lib, sotuv tizimini <span class="span_bold">yaratmoqchi bo‘lsangiz</span></p>
+            <div class="color_block"></div>
+            <p>Siz klinika rahbari bo‘lib, <br> sotuv tizimini yaratmoqchi <br> bo‘lsangiz</p>
         </div>
 
-        <hr>
 
         <div class="exp-item">
-            <img src="img/check 3.svg" alt="Check">
-            <p>Foydani oshirish va mijoz oqimini ko‘paytirish bo‘yicha <span class="span_bold">aniq instrumentlar olmoqchi bo‘lsangiz</span>
-            </p>
+            <div class="color_block"></div>
+            <p>Foydani oshirish va mijoz <br> oqimini ko‘paytirish bo‘yicha <br> aniq instrumentlar <br> olmoqchi bo‘lsangiz</p>
         </div>
 
-        <hr>
 
         <div class="exp-item">
-            <img src="img/check 3.svg" alt="Check">
-            <p>Sotuv tizimini to‘g‘ri qo‘yib savdoyingizni <span
-                        class="span_bold">karra karra o‘stirmoqchi bo‘lsangiz</span></p>
+            <div class="color_block"></div>
+            <p>Savdoyingizni karra<br>o’stiruvchi sotuv strate-<br>giyalarni oʻrganmoqchi<br>boʻlsangiz</p>
         </div>
 
         <button class="register_btn glory700 exp-btn">RO‘YXATDAN O‘TISH</button>
