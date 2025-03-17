@@ -27,7 +27,7 @@
     </div>
     <div class="container header_con">
         <div class="header_main">
-            <img src="img/avazov.png" alt="">
+            <img src="img/avazov.webp" alt="">
         </div>
         <div class="info_blog">
             <div class="title glory700">
@@ -156,7 +156,7 @@
             </div>
         </div>
     <div class="container info_data info_data1">
-        <img src="img/img_1.png" alt="">
+        <img src="img/img_1.webp" alt="">
         <button class="biznes_btn register_btn glory700 exp-btn">RO‘YHATDAN O‘TISH</button>
     </div>
 </section>
@@ -168,25 +168,25 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/BVNl5Liwayc?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/BVNl5Liwayc?rel=0&modestbranding=1&showinfo=0"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/jOf0MftMuP8?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/jOf0MftMuP8?rel=0&modestbranding=1&showinfo=0"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/3E991Y15oMs?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/3E991Y15oMs?rel=0&modestbranding=1&showinfo=0"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/hytJv4cCDAQ?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/hytJv4cCDAQ?rel=0&modestbranding=1&showinfo=0"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/KTd7daV4IOI?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/KTd7daV4IOI?rel=0&modestbranding=1&showinfo=0"></iframe>
                 </div>
             </div>
         </div>
