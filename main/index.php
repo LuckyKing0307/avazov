@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/select.css">
-    <title>Document</title>
+    <title>Alisher Avazov</title>
 </head>
 <body>
 <header>

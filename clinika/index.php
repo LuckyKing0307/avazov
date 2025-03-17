@@ -152,27 +152,32 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/BVNl5Liwayc?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe src="https://lite-youtube-embed-iframe.vercel.app/embed/BVNl5Liwayc?controls=0"
+                            loading="lazy"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/jOf0MftMuP8?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe src="https://lite-youtube-embed-iframe.vercel.app/embed/jOf0MftMuP8?controls=0"
+                            loading="lazy"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/3E991Y15oMs?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe src="https://lite-youtube-embed-iframe.vercel.app/embed/3E991Y15oMs?controls=0"
+                            loading="lazy"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe src="https://lite-youtube-embed-iframe.vercel.app/embed/HpCbGb2xd44?controls=0"
+                            loading="lazy"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe src="https://lite-youtube-embed-iframe.vercel.app/embed/hytJv4cCDAQ?controls=0"
+                            loading="lazy"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/hytJv4cCDAQ?rel=0&modestbranding=1&showinfo=0"></iframe>
-                </div>
-                <div class="swiper-slide video_blog">
-                    <iframe class="video" src="https://www.youtube.com/embed/KTd7daV4IOI?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe src="https://lite-youtube-embed-iframe.vercel.app/embed/KTd7daV4IOI?controls=0"
+                            loading="lazy"></iframe>
                 </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
         <div class="stars">
             <img src="img/Stars.webp" alt="">
@@ -321,10 +326,6 @@
 <script>
     const swiper = new Swiper('.swiper', {
         loop: true,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
