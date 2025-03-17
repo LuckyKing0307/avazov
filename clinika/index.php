@@ -29,7 +29,7 @@
     </div>
     <div class="container header_con">
         <div class="header_main">
-            <img src="img/avazov.webp" alt="">
+            <img src="img/avazov.webp" alt="" loading="lazy">
         </div>
         <div class="info_blog">
             <div class="title glory700">Zamonaviy sotuv bo’limi <br> orqali Klinikangizni daromadli <br> <span class="span_bold"> biznesga aylantiring.</span>
