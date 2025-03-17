@@ -20,6 +20,7 @@ function writeToGoogleSheets($postData) {
         $postData['select2'] ?? 'Не указано',
         $postData['select3'] ?? 'Не указано',
         $postData['name'] ?? 'Не указано',
+        $postData['name'] ?? 'Не указано',
         $postData['phone'] ?? 'Не указано',
         $postData['utm'] ?? 'Не указано'
     ]];
