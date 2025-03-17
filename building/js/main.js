@@ -60,6 +60,7 @@ function submitData() {
         formData.name = document.getElementById("name").value;
         formData.phone = document.getElementById("phone").value;
         fetch('https://alisheravazov.uz/post_to_sheets.php', {
+
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
@@ -70,14 +71,12 @@ function submitData() {
             .then(data => {
                 console.log("Ответ от сервера:", data);
                 if (data.success) {
-                    alert("Данные успешно отправлены!");
+                    window.location.href = "https://alisheravazov.uz/tnx_page.php";
                 } else {
-                    alert("Ошибка при отправке: " + data.message);
                 }
             })
             .catch(error => {
                 console.error("Ошибка запроса:", error);
-                alert("Ошибка соединения с сервером!");
             });
         saveData();
     }

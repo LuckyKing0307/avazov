@@ -13,26 +13,31 @@
 <header class="header_main">
     <div class="container display_flex jcsb info_data">
         <div class="sub_data display_flex">
+            <div class="sub_title glory700">3-APREL</div>
+            <div class="sub_text glory400"><img src="img/play.svg" alt="">TRENING SANASI</div>
+        </div>
+        <div class="container">
+            <div class="logo display_flex">
+                <img src="img/Oq 1.svg" alt="">
+            </div>
+        </div>
+        <div class="sub_data display_flex">
             <div class="sub_title glory700">TURIN</div>
             <div class="sub_text glory400"><img src="img/play.svg" alt="">TRENING MANZILI</div>
         </div>
     </div>
-    <div class="container">
-        <div class="logo display_flex">
-            <img src="img/Oq 1.svg" alt="">
-        </div>
-    </div>
     <div class="container ">
         <div class="header_main" style="background: none;">
+            <img src="img/avazov.png" alt="">
         </div>
         <div class="info_blog">
-            <div class="title "><span class="title glory700">Qurilish yo’nalishida</span>
-                qanday qilib Tizimli sotuv <br>bo’limi qurish mumkin
+            <div class="title "><span class="title glory700">Qurilish yo’nalishida</span><br>
+                <span class="light">qanday qilib Tizimli sotuv <br>bo’limi qurish mumkin</span>
 
             </div>
             <div class="sub_title_blog display_flex">
                 <div class="sub_title_text glory400">Alisher Avazovdan bepul diagnostikadan
-                    o‘ting va <span class="span_bold span_gold">Zamonaviy sotuv bo’limini qurish bo’yicha Biznes tadbirga yoziling.</span>
+                    o‘ting <br> va <span class="span_bold span_gold">Zamonaviy sotuv bo’limini qurish bo’yicha Biznes tadbirga yoziling.</span>
                 </div>
                 <div class="book_blog">
                     <img src="img/book.svg" alt="">
@@ -133,23 +138,23 @@
         <div class="biznes_title">
             BIZNES TADBIR <br>SPIKERI
         </div>
-        <img src="img/Алишер Авазов.png" alt="" class="AlisherText">
+        <img src="img/alishersign.png" alt="" class="AlisherText">
         <div class="list_biznes">
             <div class="biznes_item">
-                <img src="img/7 1.svg" alt="">
-                <div class="biznes_item_text">30 yillik tajribaga ega tadbirkor</div>
+                <img src="img/check%204.svg" alt="">
+                <div class="biznes_item_text">30 yillik tajribaga<br> ega tadbirkor</div>
             </div>
             <div class="biznes_item">
-                <img src="img/7 1.svg" alt="">
-                <div class="biznes_item_text">Europol, Nefrit suv va Amerikadagi <br>birnecha kompaniyalar asoschisi
+                <img src="img/check%204.svg" alt="">
+                <div class="biznes_item_text">Europol, Nefrit suv va <br>Amerikadagi birnecha<br> kompaniyalar asoschisi
                 </div>
             </div>
             <div class="biznes_item">
-                <img src="img/7 1.svg" alt="">
+                <img src="img/check%204.svg" alt="">
                 <div class="biznes_item_text">O’zbekistom boʻylab <br>13 ta filialga ega</div>
             </div>
+
         </div>
-        <button class="biznes_btn register_btn glory700 exp-btn">RO‘YHATDAN O‘TISH</button>
     </div>
 </section>
 <section class="videos">
@@ -165,14 +170,12 @@
             </div>
         </div>
         <div class="stars">
-            <img src="img/Stars.svg" alt="">
         </div>
     </div>
 </section>
 <section class="questions">
     <div class="container info_data">
         <div class="questions_title display_flex">
-            <img src="img/questions.png" alt="">
             <div class="q_title">KO’P BERILADIGAN <br>SAVOLLARGA JAVOBLAR:</div>
         </div>
         <div class="questions_items">
@@ -205,14 +208,12 @@
 
         <div class="telegram">
             <div class="telegram_title">SAVOLLARINGIZ QOLDIMI?</div>
-            <a href="https://t.me/alisheravazovadmin" target="_blank" class="telegram_link"><span class="tg_img"><img src="img/telegram.png" alt=""></span> TELEGRAMDAN
+            <a href="https://t.me/alisheravazovadmin" target="_blank" class="telegram_link"><span class="tg_img"><img src="img/telegram.svg" alt=""></span> TELEGRAMDAN
                 YOZISH </a>
             <div class="telegram_text">Menedjer bilan bog‘laning va sizni <br>qiziqtirgan barcha savollarga javob oling!
             </div>
         </div>
     </div>
-    <div class="elipse elipse1"></div>
-    <div class="elipse elipse2"></div>
 </section>
 
 <div class="form_bg">
@@ -300,7 +301,7 @@
             <input type="tel" id="phone" placeholder="111-11-11" value="+998">
             <div class="form_btns">
                 <button onclick="prevForm()" class="form_btn">Orqaga</button>
-                <button onclick="submitData()" class="form_btn">Yuborish</button>
+                <button onclick="submitData()" class="form_btn send_btn">Yuborish</button>
             </div>
         </div>
     </div>

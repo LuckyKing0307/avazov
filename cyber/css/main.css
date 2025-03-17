@@ -468,7 +468,7 @@ hr {
     position: relative;
     background: url("../img/img_1.png") no-repeat 100% 100%;
     background-size: 90%;
-    height: 426px;
+    min-height: 500px;
     border-radius: 15px;
 }
 .biznes:before{

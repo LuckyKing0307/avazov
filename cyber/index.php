@@ -292,7 +292,7 @@
             <input type="tel" id="phone" placeholder="111-11-11" value="+998">
             <div class="form_btns">
                 <button onclick="prevForm()" class="form_btn">Orqaga</button>
-                <button onclick="submitData()" class="form_btn">Yuborish</button>
+                <button onclick="submitData()" class="form_btn send_btn">Yuborish</button>
             </div>
         </div>
     </div>
