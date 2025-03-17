@@ -485,6 +485,17 @@ hr {
     border: 2px dashed white;
     border-radius: 32px;
 }
+.book_blog{
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.book_blog img{
+    top: 50%;
+    transform: translate(0,-50%);
+    position: absolute;
+    width: 150%;
+}
 .videoblog{
     margin: 0 auto;
     max-width: 380px;

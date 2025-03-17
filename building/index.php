@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/select.css">
     <title>Document</title>
 </head>
@@ -40,7 +41,7 @@
                     o‘ting <br> va <span class="span_bold span_gold">Zamonaviy sotuv bo’limini qurish bo’yicha Biznes tadbirga yoziling.</span>
                 </div>
                 <div class="book_blog">
-                    <img src="img/book.svg" alt="">
+                    <img src="img/3.webp" alt="">
                 </div>
             </div>
         </div>
@@ -325,7 +326,6 @@
     </div>
 </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper('.swiper', {
         loop: true,

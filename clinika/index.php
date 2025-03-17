@@ -317,6 +317,7 @@
     </div>
 </div>
 </body>
+<script src="https://www.youtube.com/iframe_api"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper('.swiper', {
@@ -341,6 +342,34 @@
             }
         }
     });
+
+    // Функция для остановки Swiper при воспроизведении видео
+    function stopSwiperOnPlay(event) {
+        swiper.autoplay.stop();
+    }
+
+    // Функция для возобновления Swiper при паузе
+    function startSwiperOnPause(event) {
+        swiper.autoplay.start();
+    }
+    window.addEventListener('load', () => {
+        // Добавляем обработчики событий ко всем iframe YouTube
+        document.querySelectorAll('iframe').forEach((iframe) => {
+            console.log('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+            const player = new YT.Player(iframe, {
+                events: {
+                    'onStateChange': function (event) {
+                        console.log(event)
+                        if (event.data === YT.PlayerState.PLAYING) {
+                            stopSwiperOnPlay(event);
+                        } else if (event.data === YT.PlayerState.PAUSED || event.data === YT.PlayerState.ENDED) {
+                            startSwiperOnPause(event);
+                        }
+                    }
+                }
+            });
+        });
+    }
 </script>
 <script src="js/main.js"></script>
 <script src="../pixel.js"></script>
