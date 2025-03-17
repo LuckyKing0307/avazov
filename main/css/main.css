@@ -415,13 +415,15 @@ h2 {
     align-items: center;
 }
 iframe {
-    width: 100%;
-    height: 63%;
     max-width: 560px;
     max-height: 315px;
 }
 .swiper-button-next, .swiper-button-prev{
     color: #F2994A !important;
+    margin-top: 10px;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    margin-top: 100px;
 }
 hr {
     border: none;
@@ -490,7 +492,7 @@ hr {
 }
 .video_blog iframe{
     border: 2px dashed black;
-    border-radius: 32px;
+    border-radius: 15px;
 }
 .videoblog{
     margin: 0 auto;
