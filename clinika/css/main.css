@@ -66,7 +66,7 @@
     overflow: hidden;
 }
 .header_main{
-    background: url("../img/bg.png") no-repeat 0 13%;
+    background: url("../img/bg.webp") no-repeat 0 13%;
     background-size: 100% auto;
     margin-top: -10%;
 }
@@ -331,7 +331,7 @@ hr {
     margin-top: 35px;
 }
 .biznes{
-    background: url("../img/bgaa.png") no-repeat 100% 100%;
+    background: url("../img/bgaa.webp") no-repeat 100% 100%;
     background-size: auto;
     height: 750px;
 }
