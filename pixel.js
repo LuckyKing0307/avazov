@@ -41,8 +41,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Отправляем событие "Lead" после успешной отправки формы
         setTimeout(() => sendEvent("Lead", formData), 2000);
-
-        // Можно добавить отправку формы через AJAX или стандартную отправку
-        this.submit();
     });
 });
