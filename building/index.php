@@ -1,3 +1,6 @@
+<?php
+$utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source']) : 'Не указано';
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,6 +15,7 @@
 </head>
 <body>
 <header class="header_main">
+    <div class="utm" style="display: none;"><?php echo $utm_source; ?></div>
     <div class="container display_flex jcsb info_data">
         <div class="sub_data display_flex">
             <div class="sub_title glory700">3-APREL</div>

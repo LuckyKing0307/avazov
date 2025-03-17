@@ -20,7 +20,8 @@ function writeToGoogleSheets($postData) {
         $postData['select2'] ?? 'Не указано',
         $postData['select3'] ?? 'Не указано',
         $postData['name'] ?? 'Не указано',
-        $postData['phone'] ?? 'Не указано'
+        $postData['phone'] ?? 'Не указано',
+        $postData['utm'] ?? 'Не указано'
     ]];
 
     $body = new Sheets\ValueRange(['values' => $values]);

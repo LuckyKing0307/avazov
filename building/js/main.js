@@ -2,7 +2,7 @@ let currentForm = 1;
 const formData = {};
 const steps = [25, 50, 75, 100];
 let currentStep = 0;
-
+let utmValue = document.getElementById('utm-source').textContent;
 const progressBar = document.querySelector(".proccess");
 const progressWrap = document.querySelector(".form_wraper");
 const progressbg = document.querySelector(".form_bg");
@@ -59,6 +59,7 @@ function submitData() {
     } else {
         formData.name = document.getElementById("name").value;
         formData.phone = document.getElementById("phone").value;
+        formData.utm = utmValue;
         fetch('https://alisheravazov.uz/post_to_sheets.php', {
 
             method: 'POST',
