@@ -324,4 +324,5 @@
     });
 </script>
 <script src="js/main.js"></script>
+<script src="../pixel.js"></script>
 </html>

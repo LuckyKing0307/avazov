@@ -162,11 +162,29 @@
         <div class="video_title">
             ISHTIROKCHILARNING <br>TRENINGDAN OLGAN NATIJALARI
         </div>
-        <div class="videoblog">
-            <div class="video_blog">
-                <iframe width="350" height="415"
-                        src="https://www.youtube.com/embed/KTd7daV4IOI">
-                </iframe>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/BVNl5Liwayc?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/jOf0MftMuP8?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/3E991Y15oMs?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/hytJv4cCDAQ?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
+                <div class="swiper-slide video_blog">
+                    <iframe class="video" src="https://www.youtube.com/embed/KTd7daV4IOI?rel=0&modestbranding=1&showinfo=0"></iframe>
+                </div>
             </div>
         </div>
         <div class="stars">
@@ -307,5 +325,31 @@
     </div>
 </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        on: {
+            slideChange: function () {
+                document.querySelectorAll('.video').forEach(iframe => {
+                    iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+                });
+            }
+        }
+    });
+</script>
 <script src="js/main.js"></script>
+<script src="../pixel.js"></script>
 </html>
