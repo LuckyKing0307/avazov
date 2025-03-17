@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/select.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/lite-youtube-embed/src/lite-yt-embed.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -72,28 +73,39 @@
         </div>
         <div class="cards">
             <div class="card">
-                <div class="img_wrap_card"><div>1</div></div>
-                <p>Reklama xarajatlari ko‘p, lekin mijozlar  kam – marketingga pul sarflaysiz,
+                <div class="img_wrap_card">
+                    <div>1</div>
+                </div>
+                <p>Reklama xarajatlari ko‘p, lekin mijozlar kam – marketingga pul sarflaysiz,
                     ammo natija kutilgandek bo‘lmaydi.</span></p>
             </div>
             <hr>
             <div class="card">
-                <div class="img_wrap_card"><div>2</div></div>
+                <div class="img_wrap_card">
+                    <div>2</div>
+                </div>
                 <p>Mijozlarni ushlab qolish tizimi yo‘q – eski
-                    mijozlar sizga qaytmaydi, <span class="span_bold">har safar  yangilarini qidirishga majbur bo‘lasiz.</span></p>
+                    mijozlar sizga qaytmaydi, <span
+                            class="span_bold">har safar  yangilarini qidirishga majbur bo‘lasiz.</span></p>
             </div>
             <hr>
             <div class="card">
-                <div class="img_wrap_card"><div>3</div></div>
-                <p><span class="span_bold">Xodimlar tartibsiz ishlaydi</span>, reja va KPI  yo‘q – sotuvchilar o‘zicha harakat qiladi,
+                <div class="img_wrap_card">
+                    <div>3</div>
+                </div>
+                <p><span class="span_bold">Xodimlar tartibsiz ishlaydi</span>, reja va KPI yo‘q – sotuvchilar o‘zicha
+                    harakat qiladi,
                     tizimli nazorat yo‘qligi sababli natija
                     pasayadi.
                 </p>
             </div>
             <hr>
             <div class="card">
-                <div class="img_wrap_card"><div>4</div></div>
-                <p>Mijozlar sizdan faqat narx so‘rab chiqib ketadi – chunki ularga sizning <span class="span_bold">mahsulotingizning afzalliklari  tushuntirilmagan.</span></p>
+                <div class="img_wrap_card">
+                    <div>4</div>
+                </div>
+                <p>Mijozlar sizdan faqat narx so‘rab chiqib ketadi – chunki ularga sizning <span class="span_bold">mahsulotingizning afzalliklari  tushuntirilmagan.</span>
+                </p>
             </div>
             <hr>
         </div>
@@ -103,7 +115,7 @@
 </section>
 <section class="experience">
     <div class="container_exp">
-        <h2 class="title_exp"><span class="span_bg">BIZNES TADBIR</span> SIZGA <br> ANIQ FOYDA<br>  BERADI, AGAR...</h2>
+        <h2 class="title_exp"><span class="span_bg">BIZNES TADBIR</span> SIZGA <br> ANIQ FOYDA<br> BERADI, AGAR...</h2>
 
         <div class="exp-item">
             <div class="color_block"></div>
@@ -114,7 +126,8 @@
 
         <div class="exp-item">
             <div class="color_block"></div>
-            <p>Foydani oshirish va mijoz <br> oqimini ko‘paytirish bo‘yicha <br> aniq instrumentlar <br> olmoqchi bo‘lsangiz</p>
+            <p>Foydani oshirish va mijoz <br> oqimini ko‘paytirish bo‘yicha <br> aniq instrumentlar <br> olmoqchi
+                bo‘lsangiz</p>
             <div class="images_section next2"><img src="img/5.webp" alt=""></div>
             <div class="register_btn next"><img src="img/next.svg" alt=""></div>
         </div>
@@ -135,26 +148,27 @@
     </div>
 </section>
 <section class="biznes">
-        <div class="container">
-            <div class="biznes_title">
-                BIZNES TADBIR <span class="span_bold">SPIKERI</span>
+    <div class="container">
+        <div class="biznes_title">
+            BIZNES TADBIR <span class="span_bold">SPIKERI</span>
+        </div>
+        <div class="list_biznes">
+            <div class="biznes_item">
+                <img src="img/7%201.svg" alt="">
+                <div class="biznes_item_text">30 yillik tajribaga ega<br> tadbirkor</div>
             </div>
-            <div class="list_biznes">
-                <div class="biznes_item">
-                    <img src="img/7%201.svg" alt="">
-                    <div class="biznes_item_text">30 yillik tajribaga ega<br> tadbirkor</div>
+            <div class="biznes_item">
+                <img src="img/7%201.svg" alt="">
+                <div class="biznes_item_text">Europol, Nefrit suv<br> va Amerikadagi <br>birnecha kompaniyalar<br>
+                    asoschisi
                 </div>
-                <div class="biznes_item">
-                    <img src="img/7%201.svg" alt="">
-                    <div class="biznes_item_text">Europol, Nefrit suv<br> va Amerikadagi <br>birnecha kompaniyalar<br> asoschisi
-                    </div>
-                </div>
-                <div class="biznes_item">
-                    <img src="img/7%201.svg" alt="">
-                    <div class="biznes_item_text">O’zbekistom boʻylab <br>13 ta filialga ega</div>
-                </div>
+            </div>
+            <div class="biznes_item">
+                <img src="img/7%201.svg" alt="">
+                <div class="biznes_item_text">O’zbekistom boʻylab <br>13 ta filialga ega</div>
             </div>
         </div>
+    </div>
     <div class="container info_data info_data1">
         <img src="img/img_1.webp" alt="">
         <button class="biznes_btn register_btn glory700 exp-btn">RO‘YHATDAN O‘TISH</button>
@@ -168,27 +182,32 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide video_blog">
-                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/BVNl5Liwayc?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe src="https://lite-youtube-embed-iframe.vercel.app/embed/BVNl5Liwayc?controls=0"
+                            loading="lazy"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/jOf0MftMuP8?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe src="https://lite-youtube-embed-iframe.vercel.app/embed/jOf0MftMuP8?controls=0"
+                            loading="lazy"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/3E991Y15oMs?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe src="https://lite-youtube-embed-iframe.vercel.app/embed/3E991Y15oMs?controls=0"
+                            loading="lazy"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe src="https://lite-youtube-embed-iframe.vercel.app/embed/HpCbGb2xd44?controls=0"
+                            loading="lazy"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/HpCbGb2xd44?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe src="https://lite-youtube-embed-iframe.vercel.app/embed/hytJv4cCDAQ?controls=0"
+                            loading="lazy"></iframe>
                 </div>
                 <div class="swiper-slide video_blog">
-                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/hytJv4cCDAQ?rel=0&modestbranding=1&showinfo=0"></iframe>
-                </div>
-                <div class="swiper-slide video_blog">
-                    <iframe loading="lazy" class="video" src="https://www.youtube.com/embed/KTd7daV4IOI?rel=0&modestbranding=1&showinfo=0"></iframe>
+                    <iframe src="https://lite-youtube-embed-iframe.vercel.app/embed/KTd7daV4IOI?controls=0"
+                            loading="lazy"></iframe>
                 </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
         <div class="stars">
             <img src="img/Stars.svg" alt="">
@@ -232,7 +251,8 @@
 
         <div class="telegram">
             <div class="telegram_title">SAVOLLARINGIZ QOLDIMI?</div>
-            <a href="https://t.me/alisheravazovadmin" target="_blank" class="telegram_link"><span class="tg_img"><img src="img/telegram.png" alt=""></span> TELEGRAMDAN
+            <a href="https://t.me/alisheravazovadmin" target="_blank" class="telegram_link"><span class="tg_img"><img
+                            src="img/telegram.png" alt=""></span> TELEGRAMDAN
                 YOZISH </a>
             <div class="telegram_text">Menedjer bilan bog‘laning va sizni <br>qiziqtirgan barcha savollarga javob oling!
             </div>
@@ -335,10 +355,6 @@
 <script>
     const swiper = new Swiper('.swiper', {
         loop: true,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',

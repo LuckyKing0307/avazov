@@ -406,7 +406,7 @@ h2 {
 .swiper {
     width: 100%;
     max-width: 600px;
-    height: 450px;
+    height: 350px;
     margin-top: 40px;
 }
 .swiper-slide {
@@ -416,11 +416,13 @@ h2 {
 }
 iframe {
     width: 100%;
-    height: 100%;
+    height: 63%;
     max-width: 560px;
     max-height: 315px;
 }
-
+.swiper-button-next, .swiper-button-prev{
+    color: #F2994A !important;
+}
 hr {
     border: none;
     border-top: 1px solid #ddd;
@@ -600,4 +602,7 @@ hr {
     background: #B3E1FF;
     border-radius: 12px;
     margin-right: 10px;
+}
+lite-youtube{
+    height: 100%;
 }
