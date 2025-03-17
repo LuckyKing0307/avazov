@@ -53,7 +53,8 @@ function saveData() {
 
 }
 
-function submitData() {
+function submitData(e) {
+    e.style.display = 'none';
     if (document.getElementById("name").value === '' || document.getElementById("phone").value === '') {
         alert('Заполните форму')
     } else {

@@ -53,14 +53,15 @@ function saveData() {
 
 }
 
-function submitData() {
+function submitData(e) {
+    e.style.display = 'none';
     if (document.getElementById("name").value === '' || document.getElementById("phone").value === '') {
         alert('Заполните форму')
     } else {
         formData.name = document.getElementById("name").value;
         formData.phone = document.getElementById("phone").value;
         formData.utm = utmValue;
-        fetch('https://alisheravazov.uz/post_to_sheets.php', {
+        fetch('http://localhost/avazov/post_to_sheets.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
