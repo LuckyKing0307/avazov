@@ -355,6 +355,23 @@
             }
         }
     });
+    window.addEventListener('load', () => {
+        // Добавляем обработчики событий ко всем iframe YouTube
+        document.querySelectorAll('.swiper-slide iframe').forEach((iframe) => {
+            iframe.addEventListener('mouseenter', () => {
+                console.log('Видео активировано, останавливаем Swiper');
+                swiper.autoplay.stop();
+            });
+            iframe.addEventListener('mouseleave', () => {
+                console.log('Видео деактивировано, запускаем Swiper');
+                swiper.autoplay.start();
+            });
+            iframe.addEventListener('touchstart', () => {
+                console.log('Видео кликнуто (мобильный), останавливаем Swiper');
+                swiper.autoplay.stop();
+            });
+        });
+    })
 </script>
 <script src="js/main.js"></script>
 <script src="../pixel.js"></script>
