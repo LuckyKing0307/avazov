@@ -50,7 +50,7 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
     </div>
     <div class="container header_con">
         <div class="header_main">
-            <img src="img/avazov.webp" alt="" loading="lazy">
+            <img src="img/avazov2.webp">
         </div>
         <div class="info_blog">
             <div class="title glory700">Zamonaviy sotuv bo’limi <br> orqali Klinikangizni daromadli <br> <span class="span_bold"> biznesga aylantiring.</span>
