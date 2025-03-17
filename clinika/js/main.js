@@ -17,15 +17,21 @@ function updateProgress() {
     progressBar.textContent = steps[currentStep] + "%";
 }
 
-function nextForm() {
-    if (currentStep < steps.length - 1) {
-        currentStep++;
-        updateProgress();
-    }
-    saveData();
-    if (currentForm < 4) {
-        currentForm++;
-        showForm(currentForm);
+function nextForm(e) {
+    let progressBar = document.querySelector("."+e);
+    if (progressBar.textContent!=='Tanlang'){
+        if (currentStep < steps.length - 1) {
+            currentStep++;
+            updateProgress();
+        }
+        saveData();
+        if (currentForm < 4) {
+            currentForm++;
+            showForm(currentForm);
+        }
+    }else{
+        let parent = progressBar.parentElement; // Получаем его родителя
+        parent.style.border = '1px solid red';
     }
 }
 

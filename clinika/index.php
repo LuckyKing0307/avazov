@@ -273,7 +273,7 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
             <div class="custom-select" id="customSelect1">
                 <div class="select-display">
                     <span class="selected-indicator"></span>
-                    <span>Tanlang</span>
+                    <span class="sub_text1">Tanlang</span>
                 </div>
                 <div class="select-options">
                     <div data-value="Biznes egasi | Ta’sischi">Biznes egasi | Ta’sischi</div>
@@ -283,7 +283,7 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
                 </div>
             </div>
             <div class="form_btns">
-                <button onclick="nextForm()" class="form_btn">Keyingi</button>
+                <button onclick="nextForm('sub_text1')" class="form_btn">Keyingi</button>
             </div>
         </div>
 
@@ -292,7 +292,7 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
             <div class="custom-select" id="customSelect2">
                 <div class="select-display">
                     <span class="selected-indicator"></span>
-                    <span>Tanlang</span>
+                    <span class="sub_text2">Tanlang</span>
                 </div>
                 <div class="select-options">
                     <div data-value="Ishlab chiqarish">Ishlab chiqarish</div>
@@ -306,7 +306,7 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
             </div>
             <div class="form_btns">
                 <button onclick="prevForm()" class="form_btn">Orqaga</button>
-                <button onclick="nextForm()" class="form_btn">Keyingi</button>
+                <button onclick="nextForm('sub_text2')" class="form_btn">Keyingi</button>
             </div>
         </div>
 
@@ -315,7 +315,7 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
             <div class="custom-select" id="customSelect3">
                 <div class="select-display">
                     <span class="selected-indicator"></span>
-                    <span>Tanlang</span>
+                    <span class="sub_text3">Tanlang</span>
                 </div>
                 <div class="select-options">
                     <div data-value="5 tagacha xodim">5 tagacha xodim</div>
@@ -328,7 +328,7 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
             </div>
             <div class="form_btns">
                 <button onclick="prevForm()" class="form_btn">Orqaga</button>
-                <button onclick="nextForm()" class="form_btn">Keyingi</button>
+                <button onclick="nextForm('sub_text3')" class="form_btn">Keyingi</button>
             </div>
         </div>
 
