@@ -34,7 +34,7 @@ $fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
 <body>
 <header>
     <div class="utm" style="display: none;"><?php echo $utm_source; ?></div>
-    <div class="fbclick" style="display: none;"><?php echo $fbclick; ?></div>
+    <div class="fbc" style="display: none;"><?php echo $fbclick; ?></div>
     <div class="container display_flex jcsb info_data">
         <div class="sub_data display_flex">
             <div class="sub_title glory700">3-APREL</div>
@@ -313,7 +313,6 @@ $fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
                 </div>
             </div>
             <div class="form_btns">
-                <button onclick="nextForm('sub_text1')" class="form_btn">Keyingi</button>
             </div>
         </div>
 
@@ -336,7 +335,6 @@ $fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
             </div>
             <div class="form_btns">
                 <button onclick="prevForm()" class="form_btn">Orqaga</button>
-                <button onclick="nextForm('sub_text2')" class="form_btn">Keyingi</button>
             </div>
         </div>
 
@@ -358,7 +356,6 @@ $fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
             </div>
             <div class="form_btns">
                 <button onclick="prevForm()" class="form_btn">Orqaga</button>
-                <button onclick="nextForm('sub_text3')" class="form_btn">Keyingi</button>
             </div>
         </div>
 

@@ -3,7 +3,7 @@
 }
 .form_wraper{
     width: 90%;
-    height: 500px;
+    height: 550px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -73,6 +73,7 @@
 }
 input{
     margin-top: 32px;
+    height: 60px;
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -84,6 +85,47 @@ input{
     color: #000;
     font-size: 20px;
 }
+.custom-radio {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+    margin: 5px 0;
+}
+
+.custom-radio input {
+    display: none;
+}
+
+.radiomark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.custom-radio input:checked + .radiomark {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+.custom-radio input:checked + .radiomark::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .form{
     margin-top: 10px;
     height: 100%;
@@ -125,7 +167,7 @@ input{
 .custom-select {
     position: relative;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .select-display {
     padding: 10px;
@@ -136,6 +178,7 @@ input{
     display: flex;
     align-items: center;
     color: #000;
+    display: none;
 }
 .selected-indicator {
     width: 6px;
@@ -145,14 +188,15 @@ input{
     margin-right: 10px;
 }
 .select-options {
-    position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    border: 1px solid #ccc;
     background: white;
-    display: none;
     z-index: 10;
+    margin-bottom: 20px;
+}
+.active_option::before{
+    background:  var(--primary-color) !important;
 }
 .select-options div {
     padding: 10px;

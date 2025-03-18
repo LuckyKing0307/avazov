@@ -277,14 +277,13 @@ $fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
                     <span class="sub_text1">Tanlang</span>
                 </div>
                 <div class="select-options">
-                    <div data-value="Biznes egasi | Ta’sischi" onclick="nextForm('sub_text1')">Biznes egasi | Ta’sischi</div>
+                    <div data-value="Biznes egasi | Ta’sischi">Biznes egasi | Ta’sischi</div>
                     <div data-value="Direktor | Rahbar">Direktor | Rahbar</div>
                     <div data-value="Top-menejer">Top-menejer</div>
                     <div data-value="Boshqa">Boshqa</div>
                 </div>
             </div>
             <div class="form_btns">
-                <button onclick="nextForm('sub_text1')" class="form_btn">Keyingi</button>
             </div>
         </div>
 
@@ -307,7 +306,6 @@ $fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
             </div>
             <div class="form_btns">
                 <button onclick="prevForm()" class="form_btn">Orqaga</button>
-                <button onclick="nextForm('sub_text2')" class="form_btn">Keyingi</button>
             </div>
         </div>
 
@@ -329,7 +327,6 @@ $fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
             </div>
             <div class="form_btns">
                 <button onclick="prevForm()" class="form_btn">Orqaga</button>
-                <button onclick="nextForm('sub_text3')" class="form_btn">Keyingi</button>
             </div>
         </div>
 

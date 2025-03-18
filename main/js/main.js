@@ -6,6 +6,7 @@ let utmValue = document.querySelector('.utm').textContent;
 const progressBar = document.querySelector(".proccess");
 const progressWrap = document.querySelector(".form_wraper");
 const progressbg = document.querySelector(".form_bg");
+
 function showForm(formNumber) {
     document.querySelectorAll(".form-container").forEach(form => form.classList.remove("active"));
     document.getElementById("form" + formNumber).classList.add("active");
@@ -140,10 +141,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
         options.addEventListener("click", (event) => {
             if (event.target.matches("div")) {
+                event.target.parentNode.querySelectorAll(".active_option").forEach(sibling => {
+                    sibling.classList.remove("active_option");
+                });
+                event.target.classList.add("active_option");
                 display.style.color = '#000';
                 selectedText.textContent = event.target.textContent;
                 indicator.style.visibility = "visible";
-                options.style.display = "none";
+                if (currentStep < steps.length - 1) {
+                    currentStep++;
+                    updateProgress();
+                }
+                saveData();
+                if (currentForm < 4) {
+                    currentForm++;
+                    showForm(currentForm);
+                }
             }
         });
     });
