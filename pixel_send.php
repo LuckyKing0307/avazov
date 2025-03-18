@@ -79,8 +79,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['event'])) {
             'field2' => $_POST['field2'] ?? '',
             'field3' => $_POST['field3'] ?? '',
         ];
+        $eventName = 'Lead';
     }
 
-    echo sendEventToFacebook('Lead', $customData);
+    echo sendEventToFacebook($eventName, $customData);
     exit;
 }
