@@ -198,8 +198,13 @@ input{
 .active_option::before{
     background:  var(--primary-color) !important;
 }
+.active_option::after{
+    border: 1px solid var(--primary-color) !important;
+}
 .select-options div {
+    position: relative;
     padding: 10px;
+    padding-left: 40px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -209,12 +214,24 @@ input{
     background: #f0f0f0;
 }
 .select-options div::before{
+    position: absolute;
     content: '';
     display: block;
-    width: 11px;
-    height: 11px;
-    border: 1px solid #D9D9D9;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background: #D9D9D9;
     margin-right: 17px;
+    left: 15px;
+}
+.select-options div::after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    margin-right: 17px;
+    left: 10px;
 }
