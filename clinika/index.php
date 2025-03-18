@@ -266,8 +266,7 @@ $fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
             <div class="proccess">25%</div>
         </div>
         <div class="form_text">
-            Biznes tadbirga RO‘YHATDAN o‘tib, biznesgizni bepul diagnostika qildirishdan oldin quyidagi anketani
-            to’ldiring:
+            Siz bilan bog’lanishimiz uchun formani to’ldiring
         </div>
         <div id="form1" class="form-container active">
             <h3>Sizning kompayinagizdagi rolingiz qanday?</h3>
