@@ -70,7 +70,7 @@ function submitData(e) {
         const url = 'https://alisheravazov.uz/post_to_sheets.php';
         const success = navigator.sendBeacon(url, formData);
         console.log(success)
-        window.location.href = "https://alisheravazov.uz/tnx_page.php";
+        console.log(formData)
         saveData();
     }
 }
