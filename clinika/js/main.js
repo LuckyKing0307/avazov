@@ -67,24 +67,10 @@ function submitData(e) {
         formData.name = document.getElementById("name").value;
         formData.phone = document.getElementById("phone").value;
         formData.utm = utmValue;
-        fetch('https://alisheravazov.uz/post_to_sheets.php', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/x-www-form-urlencoded'
-            },
-            body: new URLSearchParams(formData)
-        })
-            .then(response => response.json())
-            .then(data => {
-                console.log("Ответ от сервера:", data);
-                if (data.success) {
-                    window.location.href = "https://alisheravazov.uz/tnx_page.php";
-                } else {
-                }
-            })
-            .catch(error => {
-                console.error("Ошибка запроса:", error);
-            });
+        const url = 'https://alisheravazov.uz/post_to_sheets.php';
+        const success = navigator.sendBeacon(url, formData);
+        console.log(success)
+        window.location.href = "https://alisheravazov.uz/tnx_page.php";
         saveData();
     }
 }
