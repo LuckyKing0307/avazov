@@ -75,7 +75,7 @@ function submitData(e) {
             body: new URLSearchParams(formData)
         });
         setTimeout(() => {
-            window.location.href = "/new-page";
+            window.location.href = "https://alisheravazov.uz/tnx_page.php";
         }, 100);
         saveData();
     }
