@@ -67,10 +67,16 @@ function submitData(e) {
         formData.name = document.getElementById("name").value;
         formData.phone = document.getElementById("phone").value;
         formData.utm = utmValue;
-        const url = 'https://alisheravazov.uz/post_to_sheets.php';
-        const success = navigator.sendBeacon(url, formData);
-        console.log(success)
-        console.log(formData)
+        fetch('https://alisheravazov.uz/post_to_sheets.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: new URLSearchParams(formData)
+        });
+        setTimeout(() => {
+            window.location.href = "/new-page";
+        }, 100);
         saveData();
     }
 }
