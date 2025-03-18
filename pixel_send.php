@@ -1,7 +1,8 @@
 <?php
 setcookie("unique", uniqid());
 // Получение Facebook Cookies или данных из POST
-function getFacebookCookies() {
+function getFacebookCookies()
+{
     $fbp = $_POST['fbp'] ?? $_COOKIE['_fbp'] ?? null;
     $fbc = $_POST['fbc'] ?? $_COOKIE['_fbc'] ?? null;
 
@@ -10,33 +11,42 @@ function getFacebookCookies() {
         'fbp' => isValidFbp($fbp) ? $fbp : null // Убираем некорректный _fbp
     ];
 }
-function isValidFbp($fbp) {
+
+function isValidFbp($fbp)
+{
     return preg_match('/^fb\.1\.\d{10}\.\d+$/', $fbp);
 }
+
 // Хеширование данных (SHA-256 для Facebook)
-function hashData($data) {
+function hashData($data)
+{
     return $data ? hash('sha256', strtolower(trim($data))) : null;
 }
 
 // Функция отправки события в Facebook Conversion API
-function sendEventToFacebook($eventName, $eventData) {
-    $id = $_COOKIE["TestCookie"] ?? $_COOKIE["TestCookie"] :: uniqid();
+function sendEventToFacebook($eventName, $eventData)
+{
+    $id = $_COOKIE["TestCookie"] ?? $_COOKIE["TestCookie"]:: uniqid();
     $accessToken = 'EAANan4Ge8sMBO0BwH4kZC7HbaQ2VXR2CQtstpc7AHn2mX7XrZAHZAdKDDIZAibgW7V9Hs9WcazZBEKxhPJHmXt9hJCe76jiqKVFCgvvovF51pmm5FZB2Qco7xG07jFCm6ZA6K3LGaNAKscLb7qbie68eCg00aomZBIgn72nKZAinxM1DhcHvjpkuPRaQtBefcwI6eHQZDZD';  // 🔹 Замените на свой Access Token
     $pixelId = '1235689174237839';  // 🔹 Замените на свой Pixel ID
     $url = "https://graph.facebook.com/v18.0/$pixelId/events";
 
     $facebookCookies = getFacebookCookies();
-
+    $srfn = explode(' ',$_POST['name']);
+    $name = count($srfn)>1 ? $srfn[0] : $srfn;
+    $sur_name = count($srfn)>1 ? $srfn[1] : $srfn;
     // Данные пользователя
+    $externalId = $_COOKIE['unique'] ?? uniqid();
     $userData = [
         'client_ip_address' => $_POST['ip'] ?? $_SERVER['REMOTE_ADDR'],
         'client_user_agent' => $_POST['user_agent'] ?? $_SERVER['HTTP_USER_AGENT'],
         'fbc' => $facebookCookies['fbc'],
         'fbp' => $facebookCookies['fbp'],
         'ph' => hashData($_POST['phone'] ?? ''),
-        'fn' => hashData($_POST['name'] ?? ''),
+        'fn' => hashData($name ?? ''),
+        'st' => hashData($sur_name ?? '') ,
+        'external_id' => hashData($externalId)
     ];
-
     // Сборка события
     $data = [
         'data' => [
