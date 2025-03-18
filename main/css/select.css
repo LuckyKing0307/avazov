@@ -139,7 +139,7 @@ input{
     justify-content: space-between;
 }
 .form_btns:has(:only-child) {
-    justify-content: end;
+    justify-content: start;
 }
 .exit{
     position: absolute;
