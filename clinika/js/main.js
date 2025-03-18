@@ -141,10 +141,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
         options.addEventListener("click", (event) => {
             if (event.target.matches("div")) {
+                event.target.parentNode.querySelectorAll(".active_option").forEach(sibling => {
+                    sibling.classList.remove("active_option");
+                });
+                event.target.classList.add("active_option");
                 display.style.color = '#000';
                 selectedText.textContent = event.target.textContent;
                 indicator.style.visibility = "visible";
-                options.style.display = "none";
+                if (currentStep < steps.length - 1) {
+                    currentStep++;
+                    updateProgress();
+                }
+                saveData();
+                if (currentForm < 4) {
+                    currentForm++;
+                    showForm(currentForm);
+                }
             }
         });
     });

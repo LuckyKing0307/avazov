@@ -269,7 +269,6 @@ $fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
             Biznes tadbirga RO‘YHATDAN o‘tib, biznesgizni bepul diagnostika qildirishdan oldin quyidagi anketani
             to’ldiring:
         </div>
-
         <div id="form1" class="form-container active">
             <h3>Sizning kompayinagizdagi rolingiz qanday?</h3>
             <div class="custom-select" id="customSelect1">
@@ -278,7 +277,7 @@ $fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
                     <span class="sub_text1">Tanlang</span>
                 </div>
                 <div class="select-options">
-                    <div data-value="Biznes egasi | Ta’sischi">Biznes egasi | Ta’sischi</div>
+                    <div data-value="Biznes egasi | Ta’sischi" onclick="nextForm('sub_text1')">Biznes egasi | Ta’sischi</div>
                     <div data-value="Direktor | Rahbar">Direktor | Rahbar</div>
                     <div data-value="Top-menejer">Top-menejer</div>
                     <div data-value="Boshqa">Boshqa</div>

@@ -32,15 +32,18 @@ function hashData($data)
 // Функция отправки события в Facebook Conversion API
 function sendEventToFacebook($eventName, $eventData)
 {
-    $id = $_COOKIE["TestCookie"] ?? $_COOKIE["TestCookie"]:: uniqid();
     $accessToken = 'EAANan4Ge8sMBO0BwH4kZC7HbaQ2VXR2CQtstpc7AHn2mX7XrZAHZAdKDDIZAibgW7V9Hs9WcazZBEKxhPJHmXt9hJCe76jiqKVFCgvvovF51pmm5FZB2Qco7xG07jFCm6ZA6K3LGaNAKscLb7qbie68eCg00aomZBIgn72nKZAinxM1DhcHvjpkuPRaQtBefcwI6eHQZDZD';  // 🔹 Замените на свой Access Token
     $pixelId = '1235689174237839';  // 🔹 Замените на свой Pixel ID
     $url = "https://graph.facebook.com/v18.0/$pixelId/events";
 
     $facebookCookies = getFacebookCookies();
-    $srfn = explode(' ',$_POST['name']);
-    $name = count($srfn)>1 ? $srfn[0] : $srfn;
-    $sur_name = count($srfn)>1 ? $srfn[1] : $srfn;
+    if (isset($_POST['name'])){
+        $srfn = explode(' ',$_POST['name']);
+    }else{
+        $srfn = [''];
+    }
+    $name = count($srfn)>1 ? $srfn[0] : $srfn[0];
+    $sur_name = count($srfn)>1 ? $srfn[1] : $srfn[0];
     // Данные пользователя
     $externalId = $_COOKIE['unique'] ?? uniqid();
     $userData = [
@@ -57,12 +60,13 @@ function sendEventToFacebook($eventName, $eventData)
     $data = [
         'data' => [
             [
+                'event_name' => $eventName,  // Время события (в формате Unix timestamp)
                 'event_time' => time(),  // Время события (в формате Unix timestamp)
                 'event_id' => 'lead_' . uniqid(), // Уникальный ID события
                 'action_source' => 'website',  // Источник события (сайт)
                 'user_data' => $userData,
                 'custom_data' => [
-                    'form_id' => $id,  // ID формы (например, "Форма обратной связи")
+                    'form_id' => $externalId,  // ID формы (например, "Форма обратной связи")
                     'lead_type' => 'webinar_registration', // Тип лида (можно передать "запись на вебинар", "подписка" и т.д.)
                 ]
             ]
