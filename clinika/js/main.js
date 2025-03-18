@@ -90,6 +90,10 @@ function submitData(e) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
+    const fbclid = document.querySelector(".fbclick").textContent;
+    if (fbclid!=='null' && fbclid!==null){
+        document.cookie = `_fbc=fb.1.${Math.floor(Date.now() / 1000)}.${fbclid}; path=/; max-age=7776000`;
+    }
     const timerElement = document.querySelector(".timer");
     let totalSeconds = localStorage.getItem("timer")
         ? parseInt(localStorage.getItem("timer"))

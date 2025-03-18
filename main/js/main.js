@@ -6,7 +6,6 @@ let utmValue = document.querySelector('.utm').textContent;
 const progressBar = document.querySelector(".proccess");
 const progressWrap = document.querySelector(".form_wraper");
 const progressbg = document.querySelector(".form_bg");
-
 function showForm(formNumber) {
     document.querySelectorAll(".form-container").forEach(form => form.classList.remove("active"));
     document.getElementById("form" + formNumber).classList.add("active");
@@ -90,6 +89,10 @@ function submitData(e) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
+    const fbclid = document.querySelector(".fbclick").textContent;
+    if (fbclid!=='null' && fbclid!==null){
+        document.cookie = `_fbc=fb.1.${Math.floor(Date.now() / 1000)}.${fbclid}; path=/; max-age=7776000`;
+    }
     const timerElement = document.querySelector(".timer");
     let totalSeconds = localStorage.getItem("timer")
         ? parseInt(localStorage.getItem("timer"))

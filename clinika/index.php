@@ -1,5 +1,6 @@
 <?php
 $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source']) : 'Не указано';
+$fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
 ?>
 <!doctype html>
 <html lang="en">
@@ -33,6 +34,7 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
 <body>
 <header>
     <div class="utm" style="display: none;"><?php echo $utm_source; ?></div>
+    <div class="fbclick" style="display: none;"><?php echo $fbclick; ?></div>
     <div class="container display_flex jcsb info_data">
         <div class="sub_data display_flex">
             <div class="sub_title glory700">3-APREL</div>

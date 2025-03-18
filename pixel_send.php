@@ -1,5 +1,11 @@
 <?php
-setcookie("unique", uniqid());
+if (!isset($_COOKIE['unique'])) {
+    setcookie('unique', uniqid(), time() + 7776000, "/"); // 90 дней
+}
+if (isset($_GET['fbclid'])) {
+    $fbclid = $_GET['fbclid'];
+    setcookie('_fbc', "fb.1." . time() . ".$fbclid", time() + 7776000, "/"); // 90 дней
+}
 // Получение Facebook Cookies или данных из POST
 function getFacebookCookies()
 {
