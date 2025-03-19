@@ -40,6 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
         sendEvent("FormSubmit", formData);
 
         // Отправляем событие "Lead" после успешной отправки формы
-        setTimeout(() => sendEvent("Lead", formData), 2000);
+        setTimeout(() => sendEvent("Lead", formData), 100);
     });
 });
