@@ -57,7 +57,7 @@ function submitData(e) {
     if (document.getElementById("name").value === '' || document.getElementById("phone").value == '+998') {
         if (document.getElementById("name").value === ''){
             document.getElementById("name").style.border = '1px solid red';
-        } if (document.getElementById("phone").value === '+998'){
+        } if (document.getElementById("phone").value == '+998'){
             document.getElementById("phone").style.border = '1px solid red';
         }
     } else {
