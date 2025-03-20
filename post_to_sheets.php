@@ -1,14 +1,13 @@
 <?php
 require 'vendor/autoload.php';
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
+require 'db.php';
 use Google\Client;
 use Google\Service\Sheets;
 define('SPREADSHEET_ID', '1OG8wUkocB4KBgrUhfLL9uF5m9vdrWpZW0E_6Z0AP-Ks'); // Замените на ID вашей Google Sheets
 define('SERVICE_ACCOUNT_JSON', 'keys.json'); // Путь к JSON-файлу сервисного аккаунта
 
 function writeToGoogleSheets($postData) {
+    global $mysqli;
     $client = new Client();
     $client->setAuthConfig(SERVICE_ACCOUNT_JSON);
     $client->setScopes([Sheets::SPREADSHEETS]);
@@ -24,6 +23,13 @@ function writeToGoogleSheets($postData) {
         $postData['phone'] ?? 'Не указано',
         $postData['utm'] ?? 'Не указано'
     ]];
+    $stmt = $mysqli->prepare("INSERT INTO users (name, phone,utm) VALUES (?, ?, ?)");
+    $stmt->bind_param("sss", $postData['name'], $postData['phone'], $postData['utm']); // "ss" - два строковых параметра
+    if ($stmt->execute()) {
+        echo "Запись успешно добавлена!";
+    } else {
+        echo "Ошибка: " . $stmt->error;
+    }
 
     $body = new Sheets\ValueRange(['values' => $values]);
     $params = ['valueInputOption' => 'RAW'];
