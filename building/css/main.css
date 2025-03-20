@@ -598,7 +598,7 @@ hr {
 }
 .tg_img{
     padding: 10px;
-    background: #ffffff;
+    background: #B3E1FF;
     border-radius: 12px;
     margin-right: 10px;
 }
@@ -614,8 +614,13 @@ hr {
     align-items: center;
 }
 iframe {
-    width: 100%;
-    height: 100%;
     max-width: 560px;
     max-height: 315px;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: #036FC4 !important;
+    margin-top: 10px;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    margin-top: 100px;
 }
