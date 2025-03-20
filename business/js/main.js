@@ -76,7 +76,10 @@ function submitData(e) {
             .then(data => {
                 console.log("Ответ от сервера:", data);
                 if (data.success) {
-                    window.location.href = "https://alisheravazov.uz/tnx_page.php";
+                    const a = document.createElement("a");
+                    a.href = "https://alisheravazov.uz/tnx_page.php";
+                    document.body.appendChild(a);
+                    a.click();
                 } else {
                 }
             })
