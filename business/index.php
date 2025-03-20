@@ -34,15 +34,15 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
     <div class="utm" style="display: none;"><?php echo $utm_source; ?></div>
     <div class="container display_flex jcsb info_data">
         <div class="sub_data display_flex">
-            <div class="sub_title glory700">3-APREL</div>
-            <div class="sub_text glory400"><img src="img/play.svg" alt="">TRENING SANASI</div>
+            <div class="sub_title glory700">3-АПРЕЛ</div>
+            <div class="sub_text glory400"><img src="img/play.svg" alt="">ТРЕНИНГ САНАСИ</div>
         </div>
         <div class="logo display_flex">
             <img src="img/Oq%201.webp" alt="">
         </div>
         <div class="sub_data display_flex">
-            <div class="sub_title glory700">TURIN</div>
-            <div class="sub_text glory400"><img src="img/play.svg" alt="">TRENING MANZILI</div>
+            <div class="sub_title glory700">ТУРИН</div>
+            <div class="sub_text glory400"><img src="img/play.svg" alt="">ТРЕНИНГ МАНЗИЛИ</div>
         </div>
     </div>
     <div class="container header_con">
@@ -72,7 +72,7 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
             <div class="button_container">
                 <div class="first_layer">
                     <div class="second_layer">
-                        <button class="register_btn glory700">Ro’yhatdan o’tish</button>
+                        <button class="register_btn glory700">РЎЙХАТДАН ЎТИШ</button>
                     </div>
                 </div>
             </div>
@@ -249,15 +249,14 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
             <div class="proccess">75%</div>
         </div>
         <div class="form_text">
-            Biznes tadbirga RO‘YHATDAN o‘tib, biznesgizni bepul diagnostika qildirishdan oldin quyidagi anketani
-            to’ldiring:
+            Сиз билан боғланишимиз учун, формани тўлдиринг.
         </div>
 
         <div id="form1" class="form-container">
             <input type="text" id="name" placeholder="Ism va Familiya">
             <input type="tel" id="phone" placeholder="111-11-11" value="+998">
             <div class="form_btns">
-                <button onclick="submitData(this)" class="form_btn send_btn">Yuborish</button>
+                <button onclick="submitData(this)" class="form_btn send_btn">Жўнатиш</button>
             </div>
         </div>
     </div>
