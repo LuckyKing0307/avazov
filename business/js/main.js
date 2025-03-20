@@ -56,7 +56,11 @@ function saveData() {
 function submitData(e) {
     e.style.display = 'none';
     if (document.getElementById("name").value === '' || document.getElementById("phone").value === '') {
-        alert('Заполните форму')
+        if (document.getElementById("name").value === ''){
+            document.getElementById("name").style.border = '1px solid red';
+        } if (document.getElementById("phone").value === ''){
+            document.getElementById("phone").style.border = '1px solid red';
+        }
     } else {
         formData.name = document.getElementById("name").value;
         formData.phone = document.getElementById("phone").value;

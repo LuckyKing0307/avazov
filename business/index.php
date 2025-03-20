@@ -58,7 +58,7 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
 
             </div>
             <div class="sub_title_blog display_flex">
-                <div class="sub_title_text glory400">0 дан профессионал сотув бўлимини <br> қуришни <span class="span_bold span_gold"> ўрганиш орқали бизнесингиз br савдосини 2x-5х гача оширинг</span>
+                <div class="sub_title_text glory400">0 дан профессионал сотув бўлимини <br> қуришни <span class="span_bold span_gold"> ўрганиш орқали бизнесингиз <br> савдосини 2x-5х гача оширинг</span>
                 </div>
                 <!--                <div class="book_blog">-->
                 <!--                    <img src="img/book.webp" alt="">-->
