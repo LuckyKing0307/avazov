@@ -54,7 +54,6 @@ function saveData() {
 }
 
 function submitData(e) {
-    e.style.display = 'none';
     if (document.getElementById("name").value === '' || document.getElementById("phone").value === '') {
         if (document.getElementById("name").value === ''){
             document.getElementById("name").style.border = '1px solid red';
@@ -62,6 +61,7 @@ function submitData(e) {
             document.getElementById("phone").style.border = '1px solid red';
         }
     } else {
+        e.style.display = 'none';
         formData.name = document.getElementById("name").value;
         formData.phone = document.getElementById("phone").value;
         formData.utm = utmValue;
