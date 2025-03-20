@@ -22,7 +22,6 @@ window.onload = () => sendEvent("PageView");
 document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".register_btn").forEach(button => {
         button.addEventListener("click", function () {
-            console.log('aaaaaaaaaaa')
             sendEvent("ClickButton");
         });
     });
@@ -37,9 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
             formData[`field${index + 1}`] = select.querySelector(".select-display span:last-child").textContent;
         });
 
-        sendEvent("FormSubmit", formData);
-
-        // Отправляем событие "Lead" после успешной отправки формы
-        setTimeout(() => sendEvent("Lead", formData), 100);
+        sendEvent("Lead", formData);
     });
 });
