@@ -1,7 +1,6 @@
 {
     "require": {
         "google/apiclient": "^2.18",
-        "ext-pdo": "*",
-        "ext-mysqli": "*"
+        "phpoffice/phpspreadsheet": "^4.1"
     }
 }

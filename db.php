@@ -4,8 +4,3 @@ $dbname = 'alisher9_avazov'; // Имя базы данных
 $username = 'alisher9_avazov'; // Логин
 $password = '!!Lucky0307!!'; // Пароль
 $mysqli = new mysqli($host, $username, $password, $dbname);
-
-// Проверка подключения
-if ($mysqli->connect_error) {
-    die("Ошибка подключения: " . $mysqli->connect_error);
-}
