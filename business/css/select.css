@@ -1,5 +1,5 @@
 :root {
-    --primary-color: linear-gradient(90deg, #2EFBA2 0%, #0CD9E4 100%); /* Синий */
+    --primary-color: linear-gradient(90deg, #BF9F6B 0%, #BF9F6B 100%); /* Синий */
 }
 .form_wraper{
     width: 90%;
