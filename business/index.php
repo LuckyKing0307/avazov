@@ -49,7 +49,7 @@ $utm_source = isset($_GET['utm_source']) ? htmlspecialchars($_GET['utm_source'])
         <div class="header_main">
             <img src="img/avazov.webp" alt="">
         </div>
-        <img src="img/gold.png" alt="" class="bgs img2">
+        <img src="img/gold.webp" alt="" class="bgs img2">
         <div class="content">
             <div class="info_blog">
                 <div class="title glory700"><p style="color: #fff">ЗАМОНАВИЙ СОТУВ БЎЛИМИ:
