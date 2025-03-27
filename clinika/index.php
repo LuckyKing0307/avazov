@@ -255,7 +255,6 @@ $fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
 
 <div class="form_bg">
 </div>
-
 <div class="form_wraper">
     <div class="form">
         <div class="exit" onclick="exit()">
@@ -263,78 +262,17 @@ $fbclick = isset($_GET['fbclid']) ? $_GET['fbclid'] : null;
         </div>
 
         <div class="procc_bar">
-            <div class="proccess">25%</div>
+            <div class="proccess">75%</div>
         </div>
         <div class="form_text">
-            Siz bilan bog’lanishimiz uchun formani to’ldiring
-        </div>
-        <div id="form1" class="form-container active">
-            <h3>Sizning kompayinagizdagi rolingiz qanday?</h3>
-            <div class="custom-select" id="customSelect1">
-                <div class="select-display">
-                    <span class="selected-indicator"></span>
-                    <span class="sub_text1">Tanlang</span>
-                </div>
-                <div class="select-options">
-                    <div data-value="Biznes egasi | Ta’sischi">Biznes egasi | Ta’sischi</div>
-                    <div data-value="Direktor | Rahbar">Direktor | Rahbar</div>
-                    <div data-value="Top-menejer">Top-menejer</div>
-                    <div data-value="Boshqa">Boshqa</div>
-                </div>
-            </div>
-            <div class="form_btns">
-            </div>
+            Сиз билан боғланишимиз учун, формани тўлдиринг.
         </div>
 
-        <div id="form2" class="form-container">
-            <h3>Biznes yo‘nalishingiz? (sohalar bo‘yicha)</h3>
-            <div class="custom-select" id="customSelect2">
-                <div class="select-display">
-                    <span class="selected-indicator"></span>
-                    <span class="sub_text2">Tanlang</span>
-                </div>
-                <div class="select-options">
-                    <div data-value="Ishlab chiqarish">Ishlab chiqarish</div>
-                    <div data-value="Qurilish">Qurilish</div>
-                    <div data-value="Consulting">Consulting</div>
-                    <div data-value="Ta’lim">Ta’lim</div>
-                    <div data-value="Klinika">Klinika</div>
-                    <div data-value="IT-kompaniya">IT-kompaniya</div>
-                    <div data-value="Boshqa">Boshqa</div>
-                </div>
-            </div>
-            <div class="form_btns">
-                <button onclick="prevForm()" class="form_btn">Orqaga</button>
-            </div>
-        </div>
-
-        <div id="form3" class="form-container">
-            <h3>Xodimlaringiz soni?</h3>
-            <div class="custom-select" id="customSelect3">
-                <div class="select-display">
-                    <span class="selected-indicator"></span>
-                    <span class="sub_text3">Tanlang</span>
-                </div>
-                <div class="select-options">
-                    <div data-value="5 tagacha xodim">5 tagacha xodim</div>
-                    <div data-value="5-10 xodim">5-10 xodim</div>
-                    <div data-value="11-50 xodim">11-50 xodim</div>
-                    <div data-value="51-100 xodim">51-100 xodim</div>
-                    <div data-value="101-200 xodim">101-200 xodim</div>
-                    <div data-value="201-500 xodim">201-500 xodim</div>
-                </div>
-            </div>
-            <div class="form_btns">
-                <button onclick="prevForm()" class="form_btn">Orqaga</button>
-            </div>
-        </div>
-
-        <div id="form4" class="form-container">
+        <div id="form1" class="form-container" style="display:block;">
             <input type="text" id="name" placeholder="Ism va Familiya">
             <input type="tel" id="phone" placeholder="111-11-11" value="+998">
             <div class="form_btns">
-                <button onclick="prevForm()" class="form_btn">Orqaga</button>
-                <button onclick="submitData(this)" class="form_btn send_btn">Yuborish</button>
+                <button onclick="submitData(this)" class="form_btn send_btn">Жўнатиш</button>
             </div>
         </div>
     </div>

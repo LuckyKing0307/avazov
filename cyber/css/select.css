@@ -97,8 +97,13 @@ input{
     display: flex;
     justify-content: space-between;
 }
+.form_btns button{
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
 .form_btns:has(:only-child) {
-    justify-content: end;
+    justify-content: center;
 }
 .exit{
     position: absolute;
